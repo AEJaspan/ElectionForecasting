@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+.vscode/
+=*
+logs/
+plots/
+.ipynb_checkpoints/
+results/
+data/interim/
+data/processed/
+tests/
+.DS_Store

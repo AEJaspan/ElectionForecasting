@@ -1,0 +1,26 @@
+-e .
+git+https://github.com/AEJaspan/PollScraper.git
+Click==8.0
+pandas
+numpy
+matplotlib
+plotly
+kaleido
+nbformat
+# ==4.2.0
+seaborn
+scikit-learn
+pygam
+statsmodels
+pytensor
+pymc
+graphviz
+ipykernel
+geopandas
+numpyro[cuda] -f https://storage.googleapis.com/jax-releases/jax_cuda_releases.html
+blackjax
+# jax[cuda12_pip] -f https://storage.googleapis.com/jax-releases/jax_cuda_releases.html
+# jax[cuda_12]>=0.4.16 -f https://storage.googleapis.com/jax-releases/jax_releases.html
+bambi
+patsy
+filterpy

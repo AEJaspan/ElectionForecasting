@@ -1,0 +1,754 @@
+scenario,year,date_conducted,date_published,pollster,geography,mode,sample_size,population_surveyed,sponsor,cc_poll_share,dgm_poll_share,pdal_poll_share,ssp_poll_share,undecided_poll_share
+A,2024,2024-04-02,2024-04-03,Dataland Daily,National,Online,200,Adults,None,0.2,0.225,0.28,0.06,0.235
+A,2024,2024-04-03,2024-04-04,Dataland Daily,National,Online,200,Adults,None,0.27,0.165,0.28,0.05,0.235
+A,2024,2024-04-03,2024-04-05,Cobolite Coalition Calling,Synapse Territories,IVR,2000,RV,CC,0.2,0.195,0.204,0.226,0.175
+A,2024,2024-04-05,2024-04-06,Dataland Daily,National,Online,200,Adults,None,0.275,0.2,0.245,0.065,0.215
+A,2024,2024-04-04,2024-04-06,Dataland Daily,National,Online,200,Adults,None,0.235,0.25,0.315,0.065,0.135
+A,2024,2024-04-06,2024-04-07,Dataland Daily,National,Online,200,Adults,None,0.19,0.2,0.34,0.055,0.215
+A,2024,2024-04-05,2024-04-07,Progressive Polling,Cortexia,Live caller,1000,Adults,None,0.151,0.165,0.263,0.3,0.121
+A,2024,2024-04-05,2024-04-07,Progressive Polling,Voltagea,Live caller,1000,Adults,None,0.14,0.212,0.478,0,0.17
+A,2024,2024-04-07,2024-04-08,Dataland Daily,National,Online,200,Adults,None,0.23,0.23,0.29,0.02,0.23
+A,2024,2024-04-08,2024-04-09,Cobolite Coalition Calling,Infoglen,IVR,2000,RV,CC,0.505,0.139,0.194,0,0.162
+A,2024,2024-04-07,2024-04-09,Big Dataland Surveys,Circuit Confederation,Online,10000,RV,None,0.248,0.199,0.388,0,0.164
+A,2024,2024-04-09,2024-04-10,No Province Left Behind,Binaryshire,IVR,500,RV,None,0.764,0.006,0.078,0,0.152
+A,2024,2024-04-08,2024-04-10,Dataland Daily,National,Online,200,Adults,None,0.24,0.14,0.39,0.06,0.17
+A,2024,2024-04-10,2024-04-11,Dataland Daily,National,Online,200,Adults,None,0.175,0.205,0.32,0.06,0.24
+A,2024,2024-04-09,2024-04-11,Dataland Daily,National,Online,200,Adults,None,0.2,0.235,0.3,0.05,0.215
+A,2024,2024-04-11,2024-04-12,Cobolite Coalition Calling,Metaflux Realm,IVR,2000,RV,CC,0.576,0.105,0.156,0,0.164
+A,2024,2024-04-11,2024-04-12,Dataland Daily,National,Online,200,Adults,None,0.21,0.2,0.37,0.065,0.155
+A,2024,2024-04-12,2024-04-13,Progressive Polling,Cerebrica,Live caller,1000,Adults,PDAL,0.261,0.279,0.271,0.071,0.118
+A,2024,2024-04-12,2024-04-13,Dataland Daily,National,Online,200,Adults,None,0.28,0.155,0.23,0.05,0.285
+A,2024,2024-04-13,2024-04-14,Dataland Daily,National,Online,200,Adults,None,0.295,0.19,0.25,0.04,0.225
+A,2024,2024-04-15,2024-04-16,Dataland Daily,National,Online,200,Adults,None,0.22,0.175,0.395,0.04,0.17
+A,2024,2024-04-14,2024-04-16,Dataland Daily,National,Online,200,Adults,None,0.255,0.19,0.335,0.05,0.17
+A,2024,2024-04-17,2024-04-18,Dataland Daily,National,Online,200,Adults,None,0.31,0.185,0.245,0.06,0.2
+A,2024,2024-04-16,2024-04-18,Progressive Polling,Cerebrica,Live caller,1000,Adults,None,0.281,0.265,0.239,0.057,0.158
+A,2024,2024-04-16,2024-04-18,Dataland Daily,National,Online,200,Adults,None,0.24,0.23,0.285,0.015,0.23
+A,2024,2024-04-18,2024-04-19,Dataland Daily,National,Online,200,Adults,None,0.195,0.265,0.29,0.09,0.16
+A,2024,2024-04-20,2024-04-21,Dataland Daily,National,Online,200,Adults,None,0.27,0.245,0.245,0.08,0.16
+A,2024,2024-04-20,2024-04-21,Synapse Strategies,Synapse Territories,Online,1000,RV,SSP,0.188,0.192,0.187,0.289,0.144
+A,2024,2024-04-19,2024-04-21,Dataland Daily,National,Online,200,Adults,None,0.32,0.175,0.305,0.03,0.17
+A,2024,2024-04-20,2024-04-22,Cobolite Coalition Calling,Neuronia,IVR,2000,RV,CC,0.06,0.132,0.105,0.517,0.186
+A,2024,2024-04-21,2024-04-23,Dataland Daily,National,Online,200,Adults,None,0.25,0.2,0.29,0.07,0.19
+A,2024,2024-04-21,2024-04-23,No Province Left Behind,Neuronia,IVR,500,RV,None,0.034,0.188,0.074,0.618,0.086
+A,2024,2024-04-23,2024-04-24,Dataland Daily,National,Online,200,Adults,None,0.195,0.175,0.34,0.095,0.195
+A,2024,2024-04-22,2024-04-24,Dataland Daily,National,Online,200,Adults,None,0.205,0.175,0.36,0.075,0.185
+A,2024,2024-04-22,2024-04-24,Big Dataland Surveys,National,Online,10000,RV,None,0.265,0.224,0.294,0.059,0.158
+A,2024,2024-04-23,2024-04-25,Conference Board of Dataland,Synapse Territories,Live caller,3000,LV,None,0.204,0.196,0.216,0.293,0.092
+A,2024,2024-04-25,2024-04-26,Dataland Daily,National,Online,200,Adults,None,0.24,0.18,0.265,0.095,0.22
+A,2024,2024-04-24,2024-04-26,Dataland Daily,National,Online,200,Adults,None,0.195,0.195,0.365,0.035,0.21
+A,2024,2024-04-26,2024-04-27,Dataland Daily,National,Online,200,Adults,None,0.195,0.19,0.39,0.03,0.195
+A,2024,2024-04-25,2024-04-27,Metaflux University,Binaryshire,IVR,1500,Adults,None,0.782,0.008,0.069,0,0.141
+A,2024,2024-04-25,2024-04-27,Big Dataland Surveys,Metaflux Realm,Online,10000,RV,None,0.368,0.183,0.312,0,0.136
+A,2024,2024-04-27,2024-04-28,Dataland Register-Gazette,Byteforge Domain,Live caller,1500,RV,None,0.412,0.053,0.422,0,0.113
+A,2024,2024-04-27,2024-04-28,Dataland Register-Gazette,Cortexia,Live caller,1500,RV,None,0.161,0.185,0.237,0.316,0.102
+A,2024,2024-04-26,2024-04-28,Progressive Polling,Byteforge Domain,Live caller,1000,Adults,None,0.363,0.057,0.483,0,0.097
+A,2024,2024-04-28,2024-04-29,Proudly Paid For Polling,Amperville,Online,1000,RV,PDAL,0.06,0.108,0.74,0,0.092
+A,2024,2024-04-28,2024-04-29,Dataland Daily,National,Online,200,Adults,None,0.235,0.23,0.305,0.075,0.155
+A,2024,2024-04-28,2024-04-29,Proudly Paid For Polling,Synapse Territories,Online,1000,RV,DGM,0.165,0.269,0.205,0.228,0.133
+A,2024,2024-04-27,2024-04-29,Dataland Daily,National,Online,200,Adults,None,0.205,0.205,0.335,0.12,0.135
+A,2024,2024-04-27,2024-04-29,Dataland Register-Gazette,National,Live caller,1500,RV,None,0.268,0.181,0.323,0.083,0.144
+A,2024,2024-04-29,2024-04-30,Dataland Daily,National,Online,200,Adults,None,0.17,0.255,0.31,0.055,0.21
+A,2024,2024-04-28,2024-04-30,Proudly Paid For Polling,Circuit Confederation,Online,1000,RV,DGM,0.188,0.294,0.388,0,0.13
+A,2024,2024-04-28,2024-04-30,Cobolite Coalition Calling,Electropolis,IVR,2000,RV,None,0.342,0.237,0.274,0,0.147
+A,2024,2024-04-30,2024-05-01,Proudly Paid For Polling,Amperville,Online,1000,RV,PDAL,0.066,0.114,0.701,0,0.119
+A,2024,2024-04-30,2024-05-01,Dataland Register-Gazette,Cortexia,Live caller,1500,RV,None,0.176,0.19,0.21,0.318,0.106
+A,2024,2024-04-30,2024-05-01,Dataland Daily,National,Online,200,Adults,None,0.21,0.2,0.305,0.07,0.215
+A,2024,2024-04-30,2024-05-01,Conference Board of Dataland,Synapse Territories,Live caller,3000,LV,None,0.233,0.2,0.204,0.245,0.118
+A,2024,2024-04-29,2024-05-01,Proudly Paid For Polling,Cerebrica,Online,1000,RV,DGM,0.256,0.32,0.264,0.064,0.096
+A,2024,2024-04-29,2024-05-01,Proudly Paid For Polling,National,Online,1000,RV,PDAL,0.255,0.23,0.37,0.056,0.089
+A,2024,2024-05-01,2024-05-02,Proudly Paid For Polling,Circuit Confederation,Online,1000,RV,DGM,0.217,0.23,0.412,0,0.141
+A,2024,2024-05-01,2024-05-02,Synapse Strategies,Cortexia,Online,1000,RV,None,0.168,0.188,0.23,0.305,0.109
+A,2024,2024-05-01,2024-05-02,Dataland Register-Gazette,Metaflux Realm,Live caller,1500,RV,None,0.414,0.18,0.301,0,0.105
+A,2024,2024-05-01,2024-05-02,Dataland Daily,National,Online,200,Adults,None,0.215,0.2,0.35,0.045,0.19
+A,2024,2024-04-30,2024-05-02,Conference Board of Dataland,Circuit Confederation,Live caller,3000,LV,None,0.287,0.217,0.407,0,0.089
+A,2024,2024-04-30,2024-05-02,Conference Board of Dataland,Metaflux Realm,Live caller,3000,LV,None,0.473,0.147,0.256,0,0.124
+A,2024,2024-04-30,2024-05-02,Dataland Register-Gazette,Synapse Territories,Live caller,1500,RV,None,0.198,0.196,0.231,0.277,0.099
+A,2024,2024-05-02,2024-05-03,Dataland Daily,National,Online,200,Adults,None,0.285,0.2,0.32,0.035,0.16
+A,2024,2024-05-01,2024-05-03,No Province Left Behind,Infinitron Peninsula,IVR,500,RV,None,0.558,0.144,0.226,0,0.072
+A,2024,2024-05-03,2024-05-04,Big Dataland Surveys,Circuit Confederation,Online,10000,RV,None,0.219,0.253,0.389,0,0.139
+A,2024,2024-05-03,2024-05-04,Dataland Daily,National,Online,200,Adults,None,0.285,0.17,0.315,0.045,0.185
+A,2024,2024-05-02,2024-05-04,Dataland Register-Gazette,Electropolis,Live caller,1500,RV,None,0.359,0.217,0.315,0,0.109
+A,2024,2024-05-02,2024-05-04,Proudly Paid For Polling,Quantumridge,Online,1000,RV,PDAL,0.273,0.193,0.434,0,0.1
+A,2024,2024-05-04,2024-05-05,Cobolite Coalition Calling,Byteforge Domain,IVR,2000,RV,CC,0.655,0.029,0.2,0,0.116
+A,2024,2024-05-04,2024-05-05,Dataland Daily,National,Online,200,Adults,None,0.29,0.18,0.275,0.06,0.195
+A,2024,2024-05-03,2024-05-05,Proudly Paid For Polling,Metaflux Realm,Online,1000,RV,PDAL,0.461,0.122,0.307,0,0.11
+A,2024,2024-05-03,2024-05-05,Dataland Register-Gazette,Voltagea,Live caller,1500,RV,None,0.172,0.233,0.453,0,0.143
+A,2024,2024-05-05,2024-05-06,No Province Left Behind,Infinitron Peninsula,IVR,500,RV,None,0.55,0.174,0.182,0,0.094
+A,2024,2024-05-05,2024-05-06,Dataland Daily,National,Online,200,Adults,None,0.26,0.185,0.365,0.04,0.15
+A,2024,2024-05-05,2024-05-06,Metaflux University,Quantumridge,IVR,1500,RV,None,0.295,0.219,0.367,0,0.119
+A,2024,2024-05-05,2024-05-06,Dataland Register-Gazette,Voltagea,Live caller,1500,RV,None,0.157,0.237,0.541,0,0.065
+A,2024,2024-05-04,2024-05-06,Proudly Paid For Polling,Cortexia,Online,1000,RV,DGM,0.173,0.228,0.185,0.293,0.121
+A,2024,2024-05-04,2024-05-06,Metaflux University,Metaflux Realm,IVR,1500,RV,None,0.434,0.173,0.249,0,0.144
+A,2024,2024-05-04,2024-05-06,Big Dataland Surveys,Synapse Territories,Online,10000,RV,None,0.195,0.21,0.237,0.262,0.097
+A,2024,2024-05-06,2024-05-07,Cobolite Coalition Calling,Cortexia,IVR,2000,RV,CC,0.274,0.162,0.202,0.274,0.088
+A,2024,2024-05-06,2024-05-07,Proudly Paid For Polling,Cortexia,Online,1000,RV,CC,0.202,0.181,0.2,0.309,0.108
+A,2024,2024-05-06,2024-05-07,Dataland Daily,National,Online,200,Adults,None,0.2,0.21,0.325,0.05,0.215
+A,2024,2024-05-06,2024-05-07,No Province Left Behind,Neuronia,IVR,500,RV,None,0.04,0.216,0.118,0.558,0.068
+A,2024,2024-05-05,2024-05-07,Proudly Paid For Polling,Infinitron Peninsula,Online,1000,RV,DGM,0.583,0.183,0.162,0,0.072
+A,2024,2024-05-05,2024-05-07,Proudly Paid For Polling,Synapse Territories,Online,1000,RV,DGM,0.22,0.282,0.195,0.214,0.089
+A,2024,2024-05-07,2024-05-08,No Province Left Behind,Amperville,IVR,500,LV,None,0.078,0.144,0.716,0,0.062
+A,2024,2024-05-07,2024-05-08,Conference Board of Dataland,Circuit Confederation,Live caller,3000,LV,None,0.233,0.207,0.477,0,0.084
+A,2024,2024-05-07,2024-05-08,Dataland Daily,National,Online,200,Adults,None,0.25,0.2,0.365,0.025,0.16
+A,2024,2024-05-07,2024-05-08,Conference Board of Dataland,Synapse Territories,Live caller,3000,LV,None,0.219,0.198,0.242,0.242,0.099
+A,2024,2024-05-06,2024-05-08,Proudly Paid For Polling,Cerebrica,Online,1000,RV,DGM,0.306,0.292,0.222,0.061,0.119
+A,2024,2024-05-08,2024-05-09,Dataland Register-Gazette,Cortexia,Live caller,1500,RV,None,0.143,0.199,0.254,0.313,0.092
+A,2024,2024-05-08,2024-05-09,Dataland Register-Gazette,Infoglen,Live caller,1500,RV,None,0.35,0.235,0.299,0,0.116
+A,2024,2024-05-08,2024-05-09,No Province Left Behind,Quantumridge,IVR,500,LV,None,0.24,0.236,0.474,0,0.05
+A,2024,2024-05-08,2024-05-09,Proudly Paid For Polling,Synapse Territories,Online,1000,LV,DGM,0.2,0.252,0.228,0.261,0.059
+A,2024,2024-05-07,2024-05-09,Proudly Paid For Polling,Binaryshire,Online,1000,LV,PDAL,0.787,0.007,0.101,0,0.105
+A,2024,2024-05-07,2024-05-09,Conference Board of Dataland,Metaflux Realm,Live caller,3000,LV,None,0.427,0.155,0.308,0,0.11
+A,2024,2024-05-07,2024-05-09,Cobolite Coalition Calling,National,IVR,2000,RV,CC,0.351,0.146,0.296,0.067,0.139
+A,2024,2024-05-07,2024-05-09,Metaflux University,Quantumridge,IVR,1500,RV,None,0.284,0.233,0.362,0,0.121
+A,2024,2024-05-09,2024-05-10,Dataland Register-Gazette,Cerebrica,Live caller,1500,RV,None,0.303,0.248,0.289,0.076,0.083
+A,2024,2024-05-09,2024-05-10,Dataland Register-Gazette,Circuiton,Live caller,1500,RV,None,0.117,0.353,0.439,0,0.091
+A,2024,2024-05-08,2024-05-10,Dataland Register-Gazette,Circuiton,Live caller,1500,RV,None,0.114,0.341,0.455,0,0.091
+A,2024,2024-05-08,2024-05-10,Proudly Paid For Polling,Metaflux Realm,Online,1000,LV,PDAL,0.431,0.162,0.329,0,0.078
+A,2024,2024-05-08,2024-05-10,Dataland Daily,National,Online,200,Adults,None,0.26,0.245,0.295,0.04,0.16
+A,2024,2024-05-10,2024-05-11,Proudly Paid For Polling,Voltagea,Online,1000,LV,CC,0.188,0.22,0.521,0,0.071
+A,2024,2024-05-09,2024-05-11,Metaflux University,Infinitron Peninsula,IVR,1500,RV,None,0.542,0.163,0.215,0,0.08
+A,2024,2024-05-09,2024-05-11,Dataland Daily,National,Online,200,Adults,None,0.25,0.2,0.335,0.045,0.17
+A,2024,2024-05-09,2024-05-11,No Province Left Behind,National,IVR,500,LV,None,0.312,0.23,0.296,0.054,0.108
+A,2024,2024-05-11,2024-05-12,Dataland Register-Gazette,Cortexia,Live caller,1500,RV,None,0.164,0.171,0.251,0.346,0.068
+A,2024,2024-05-11,2024-05-12,Proudly Paid For Polling,Synapse Territories,Online,1000,LV,PDAL,0.216,0.231,0.246,0.232,0.075
+A,2024,2024-05-10,2024-05-12,Dataland Daily,National,Online,200,Adults,None,0.255,0.19,0.33,0.055,0.17
+A,2024,2024-05-12,2024-05-13,Dataland Register-Gazette,Synapse Territories,Live caller,1500,RV,None,0.185,0.227,0.253,0.261,0.074
+A,2024,2024-05-11,2024-05-13,Cobolite Coalition Calling,Cortexia,IVR,2000,RV,CC,0.21,0.178,0.203,0.3,0.109
+A,2024,2024-05-11,2024-05-13,Dataland Daily,National,Online,200,Adults,None,0.23,0.19,0.36,0.08,0.14
+A,2024,2024-05-11,2024-05-13,Dataland Register-Gazette,Synapse Territories,Live caller,1500,RV,None,0.207,0.233,0.232,0.253,0.075
+A,2024,2024-05-11,2024-05-13,Big Dataland Surveys,Synapse Territories,Online,10000,RV,None,0.213,0.217,0.213,0.226,0.13
+A,2024,2024-05-12,2024-05-14,Progressive Polling,Infoglen,Live caller,1000,Adults,PDAL,0.313,0.234,0.379,0,0.074
+A,2024,2024-05-12,2024-05-14,Dataland Daily,National,Online,200,Adults,None,0.19,0.245,0.36,0.03,0.175
+A,2024,2024-05-14,2024-05-15,Conference Board of Dataland,Circuit Confederation,Live caller,3000,LV,None,0.22,0.261,0.457,0,0.061
+A,2024,2024-05-14,2024-05-15,Dataland Register-Gazette,Cortexia,Live caller,1500,RV,None,0.153,0.216,0.236,0.301,0.094
+A,2024,2024-05-14,2024-05-15,Conference Board of Dataland,Metaflux Realm,Live caller,3000,LV,None,0.417,0.19,0.31,0,0.083
+A,2024,2024-05-14,2024-05-15,Dataland Daily,National,Online,200,Adults,None,0.32,0.16,0.325,0.045,0.15
+A,2024,2024-05-13,2024-05-15,Dataland Daily,National,Online,200,Adults,None,0.2,0.245,0.32,0.09,0.145
+A,2024,2024-05-13,2024-05-15,Cobolite Coalition Calling,Voltagea,IVR,2000,RV,CC,0.206,0.192,0.516,0,0.084
+A,2024,2024-05-15,2024-05-16,Synapse Strategies,Cerebrica,Online,1000,LV,SSP,0.331,0.291,0.24,0.08,0.058
+A,2024,2024-05-15,2024-05-16,Dataland Daily,National,Online,200,Adults,None,0.2,0.25,0.305,0.065,0.18
+A,2024,2024-05-15,2024-05-16,Synapse Strategies,Neuronia,Online,1000,LV,SSP,0.039,0.156,0.08,0.647,0.078
+A,2024,2024-05-14,2024-05-16,Proudly Paid For Polling,Neuronia,Online,1000,LV,DGM,0.023,0.236,0.094,0.581,0.066
+A,2024,2024-05-14,2024-05-16,Conference Board of Dataland,Synapse Territories,Live caller,3000,LV,None,0.201,0.224,0.236,0.266,0.072
+A,2024,2024-05-16,2024-05-17,Proudly Paid For Polling,Amperville,Online,1000,LV,DGM,0.051,0.187,0.672,0,0.09
+A,2024,2024-05-16,2024-05-17,Progressive Polling,Circuiton,Live caller,1000,Adults,None,0.09,0.392,0.448,0,0.07
+A,2024,2024-05-16,2024-05-17,Dataland Daily,National,Online,200,Adults,None,0.21,0.255,0.305,0.065,0.165
+A,2024,2024-05-17,2024-05-18,Dataland Daily,National,Online,200,Adults,None,0.255,0.23,0.305,0.045,0.165
+A,2024,2024-05-16,2024-05-18,Synapse Strategies,Cerebrica,Online,1000,LV,None,0.319,0.292,0.238,0.067,0.084
+A,2024,2024-05-16,2024-05-18,Proudly Paid For Polling,Voltagea,Online,1000,LV,DGM,0.146,0.362,0.422,0,0.07
+A,2024,2024-05-18,2024-05-19,Dataland Daily,National,Online,200,Adults,None,0.285,0.185,0.305,0.065,0.16
+A,2024,2024-05-17,2024-05-19,Big Dataland Surveys,Metaflux Realm,Online,10000,RV,None,0.382,0.236,0.269,0,0.113
+A,2024,2024-05-17,2024-05-19,Synapse Strategies,Synapse Territories,Online,1000,LV,SSP,0.191,0.228,0.213,0.286,0.082
+A,2024,2024-05-19,2024-05-20,Proudly Paid For Polling,Quantumridge,Online,1000,LV,CC,0.31,0.225,0.385,0,0.08
+A,2024,2024-05-18,2024-05-20,Electropolis Elects,Electropolis,Live caller,1000,LV,None,0.4,0.23,0.288,0,0.082
+A,2024,2024-05-20,2024-05-21,Dataland Register-Gazette,Byteforge Domain,Live caller,1500,LV,None,0.452,0.051,0.417,0,0.08
+A,2024,2024-05-20,2024-05-21,Metaflux University,Byteforge Domain,IVR,1500,RV,None,0.422,0.054,0.375,0,0.149
+A,2024,2024-05-20,2024-05-21,Dataland Register-Gazette,Electropolis,Live caller,1500,LV,None,0.363,0.203,0.345,0,0.089
+A,2024,2024-05-20,2024-05-21,Dataland Daily,National,Online,200,Adults,None,0.24,0.175,0.36,0.085,0.14
+A,2024,2024-05-19,2024-05-21,Cobolite Coalition Calling,Infoglen,IVR,2000,RV,CC,0.508,0.188,0.22,0,0.083
+A,2024,2024-05-19,2024-05-21,Dataland Daily,National,Online,200,Adults,None,0.255,0.245,0.275,0.06,0.165
+A,2024,2024-05-19,2024-05-21,Big Dataland Surveys,Synapse Territories,Online,10000,RV,None,0.189,0.253,0.21,0.245,0.103
+A,2024,2024-05-21,2024-05-22,No Province Left Behind,Amperville,IVR,500,LV,None,0.068,0.168,0.71,0,0.054
+A,2024,2024-05-21,2024-05-22,Proudly Paid For Polling,Amperville,Online,1000,LV,DGM,0.06,0.207,0.659,0,0.074
+A,2024,2024-05-21,2024-05-22,Metaflux University,Binaryshire,IVR,1500,RV,None,0.819,0.01,0.076,0,0.095
+A,2024,2024-05-21,2024-05-22,Dataland Daily,National,Online,200,Adults,None,0.28,0.15,0.365,0.07,0.135
+A,2024,2024-05-20,2024-05-22,Metaflux University,Binaryshire,IVR,1500,RV,None,0.81,0.009,0.078,0,0.103
+A,2024,2024-05-20,2024-05-22,Dataland Register-Gazette,Cortexia,Live caller,1500,LV,None,0.185,0.202,0.23,0.321,0.063
+A,2024,2024-05-23,2024-05-24,Metaflux University,Infoglen,IVR,1500,RV,None,0.435,0.231,0.26,0,0.075
+A,2024,2024-05-23,2024-05-24,Synapse Strategies,Neuronia,Online,1000,LV,SSP,0.033,0.2,0.093,0.631,0.043
+A,2024,2024-05-23,2024-05-24,Proudly Paid For Polling,Voltagea,Online,1000,LV,PDAL,0.158,0.248,0.533,0,0.061
+A,2024,2024-05-22,2024-05-24,Metaflux University,Infinitron Peninsula,IVR,1500,RV,None,0.571,0.154,0.193,0,0.081
+A,2024,2024-05-22,2024-05-24,Dataland Daily,National,Online,200,Adults,None,0.215,0.235,0.315,0.07,0.165
+A,2024,2024-05-24,2024-05-25,Proudly Paid For Polling,Circuit Confederation,Online,1000,LV,DGM,0.268,0.303,0.389,0,0.04
+A,2024,2024-05-24,2024-05-25,Progressive Polling,Circuiton,Live caller,1000,LV,None,0.144,0.357,0.427,0,0.072
+A,2024,2024-05-24,2024-05-25,Dataland Daily,National,Online,200,Adults,None,0.31,0.215,0.27,0.05,0.155
+A,2024,2024-05-23,2024-05-25,Dataland Register-Gazette,Electropolis,Live caller,1500,LV,None,0.412,0.218,0.307,0,0.063
+A,2024,2024-05-23,2024-05-25,Proudly Paid For Polling,Infinitron Peninsula,Online,1000,LV,PDAL,0.528,0.155,0.248,0,0.069
+A,2024,2024-05-23,2024-05-25,Dataland Daily,National,Online,200,Adults,None,0.33,0.22,0.265,0.06,0.125
+A,2024,2024-05-25,2024-05-26,Metaflux University,Metaflux Realm,IVR,1500,RV,None,0.519,0.159,0.251,0,0.071
+A,2024,2024-05-24,2024-05-26,Dataland Register-Gazette,National,Live caller,1500,LV,None,0.307,0.209,0.356,0.057,0.07
+A,2024,2024-05-24,2024-05-26,Cobolite Coalition Calling,Quantumridge,IVR,2000,RV,CC,0.273,0.214,0.416,0,0.098
+A,2024,2024-05-26,2024-05-27,Proudly Paid For Polling,Electropolis,Online,1000,LV,CC,0.461,0.202,0.278,0,0.059
+A,2024,2024-05-26,2024-05-27,No Province Left Behind,National,IVR,500,LV,None,0.29,0.274,0.3,0.064,0.072
+A,2024,2024-05-25,2024-05-27,Progressive Polling,Circuiton,Live caller,1000,LV,None,0.153,0.337,0.454,0,0.056
+A,2024,2024-05-25,2024-05-27,Cobolite Coalition Calling,Metaflux Realm,IVR,2000,RV,CC,0.514,0.143,0.25,0,0.094
+A,2024,2024-05-25,2024-05-27,Dataland Daily,National,Online,200,Adults,None,0.245,0.175,0.35,0.065,0.165
+A,2024,2024-05-27,2024-05-28,Dataland Register-Gazette,Cortexia,Live caller,1500,LV,None,0.176,0.195,0.237,0.309,0.084
+A,2024,2024-05-27,2024-05-28,Dataland Daily,National,Online,200,Adults,None,0.175,0.24,0.395,0.065,0.125
+A,2024,2024-05-26,2024-05-28,Metaflux University,Binaryshire,IVR,1500,RV,None,0.855,0.006,0.069,0,0.07
+A,2024,2024-05-26,2024-05-28,Cobolite Coalition Calling,Infoglen,IVR,2000,RV,None,0.467,0.184,0.264,0,0.085
+A,2024,2024-05-26,2024-05-28,Dataland Daily,National,Online,200,Adults,None,0.22,0.29,0.325,0.055,0.11
+A,2024,2024-05-26,2024-05-28,Proudly Paid For Polling,Neuronia,Online,1000,LV,PDAL,0.054,0.181,0.118,0.591,0.056
+A,2024,2024-05-27,2024-05-29,Progressive Polling,Cerebrica,Live caller,1000,LV,None,0.339,0.283,0.241,0.085,0.052
+A,2024,2024-05-29,2024-05-30,Big Dataland Surveys,Circuit Confederation,Online,10000,RV,None,0.209,0.264,0.43,0,0.098
+A,2024,2024-05-29,2024-05-30,Proudly Paid For Polling,Infoglen,Online,1000,LV,CC,0.448,0.236,0.26,0,0.056
+A,2024,2024-05-29,2024-05-30,Dataland Daily,National,Online,200,Adults,None,0.28,0.215,0.355,0.05,0.1
+A,2024,2024-05-29,2024-05-30,No Province Left Behind,National,IVR,500,LV,None,0.262,0.276,0.32,0.062,0.08
+A,2024,2024-05-28,2024-05-30,Metaflux University,Byteforge Domain,IVR,1500,RV,None,0.449,0.07,0.395,0,0.086
+A,2024,2024-05-28,2024-05-30,Electropolis Elects,Electropolis,Live caller,1000,LV,None,0.394,0.25,0.311,0,0.045
+A,2024,2024-05-28,2024-05-30,Dataland Daily,National,Online,200,Adults,None,0.19,0.27,0.375,0.035,0.13
+A,2024,2024-05-29,2024-05-31,Cobolite Coalition Calling,Cerebrica,IVR,2000,RV,CC,0.321,0.302,0.206,0.086,0.084
+A,2024,2024-05-29,2024-05-31,Big Dataland Surveys,Synapse Territories,Online,10000,RV,None,0.197,0.243,0.201,0.264,0.094
+A,2024,2024-05-31,2024-06-01,Metaflux University,Metaflux Realm,IVR,1500,RV,None,0.459,0.177,0.281,0,0.083
+A,2024,2024-05-31,2024-06-01,Dataland Daily,National,Online,200,Adults,None,0.265,0.215,0.33,0.085,0.105
+A,2024,2024-05-30,2024-06-01,Dataland Daily,National,Online,200,Adults,None,0.17,0.26,0.32,0.07,0.18
+A,2024,2024-06-02,2024-06-03,Dataland Register-Gazette,Cerebrica,Live caller,1500,LV,None,0.339,0.264,0.254,0.101,0.041
+A,2024,2024-06-02,2024-06-03,Cobolite Coalition Calling,National,IVR,2000,RV,CC,0.314,0.214,0.306,0.094,0.073
+A,2024,2024-06-01,2024-06-03,Dataland Register-Gazette,Byteforge Domain,Live caller,1500,LV,None,0.417,0.061,0.451,0,0.071
+A,2024,2024-06-01,2024-06-03,Dataland Daily,National,Online,200,Adults,None,0.25,0.185,0.295,0.07,0.2
+A,2024,2024-06-01,2024-06-03,Proudly Paid For Polling,Synapse Territories,Online,1000,LV,DGM,0.206,0.283,0.212,0.247,0.052
+A,2024,2024-06-03,2024-06-04,Metaflux University,Byteforge Domain,IVR,1500,RV,None,0.483,0.071,0.371,0,0.075
+A,2024,2024-06-03,2024-06-04,Proudly Paid For Polling,Circuit Confederation,Online,1000,LV,DGM,0.214,0.296,0.435,0,0.055
+A,2024,2024-06-03,2024-06-04,Dataland Daily,National,Online,200,Adults,None,0.225,0.23,0.38,0.04,0.125
+A,2024,2024-06-02,2024-06-04,Dataland Register-Gazette,Circuiton,Live caller,1500,LV,None,0.135,0.375,0.438,0,0.053
+A,2024,2024-06-02,2024-06-04,Dataland Daily,National,Online,200,Adults,None,0.245,0.2,0.375,0.07,0.11
+A,2024,2024-06-02,2024-06-04,Dataland Register-Gazette,National,Live caller,1500,LV,None,0.281,0.215,0.346,0.082,0.075
+A,2024,2024-06-04,2024-06-05,Proudly Paid For Polling,Quantumridge,Online,1000,LV,DGM,0.222,0.352,0.381,0,0.045
+A,2024,2024-06-03,2024-06-05,Proudly Paid For Polling,Byteforge Domain,Online,1000,LV,DGM,0.449,0.11,0.39,0,0.051
+A,2024,2024-06-05,2024-06-06,Big Dataland Surveys,Synapse Territories,Online,10000,RV,None,0.194,0.252,0.213,0.272,0.069
+A,2024,2024-06-04,2024-06-06,Dataland Daily,National,Online,200,Adults,None,0.3,0.2,0.28,0.08,0.14
+A,2024,2024-06-04,2024-06-06,Metaflux University,Quantumridge,IVR,1500,RV,None,0.275,0.259,0.401,0,0.065
+A,2024,2024-06-06,2024-06-07,Dataland Register-Gazette,Cortexia,Live caller,1500,LV,None,0.183,0.179,0.268,0.327,0.043
+A,2024,2024-06-06,2024-06-07,Metaflux University,Infinitron Peninsula,IVR,1500,RV,None,0.503,0.141,0.282,0,0.073
+A,2024,2024-06-06,2024-06-07,Dataland Daily,National,Online,200,Adults,None,0.17,0.27,0.38,0.11,0.07
+A,2024,2024-06-06,2024-06-07,Big Dataland Surveys,National,Online,10000,RV,None,0.241,0.26,0.368,0.071,0.059
+A,2024,2024-06-05,2024-06-07,Proudly Paid For Polling,Cortexia,Online,1000,LV,PDAL,0.151,0.193,0.285,0.325,0.046
+A,2024,2024-06-05,2024-06-07,Progressive Polling,Electropolis,Live caller,1000,LV,PDAL,0.355,0.22,0.378,0,0.047
+A,2024,2024-06-05,2024-06-07,Dataland Daily,National,Online,200,Adults,None,0.215,0.285,0.29,0.11,0.1
+A,2024,2024-06-05,2024-06-07,Synapse Strategies,Neuronia,Online,1000,LV,SSP,0.032,0.146,0.088,0.693,0.041
+A,2024,2024-06-05,2024-06-07,Dataland Register-Gazette,Synapse Territories,Live caller,1500,LV,None,0.19,0.234,0.226,0.3,0.05
+A,2024,2024-06-07,2024-06-08,No Province Left Behind,Binaryshire,IVR,500,LV,None,0.88,0.006,0.082,0,0.032
+A,2024,2024-06-07,2024-06-08,Progressive Polling,Cortexia,Live caller,1000,LV,None,0.122,0.249,0.218,0.375,0.036
+A,2024,2024-06-06,2024-06-08,Metaflux University,Infoglen,IVR,1500,RV,None,0.433,0.201,0.288,0,0.077
+A,2024,2024-06-08,2024-06-09,Proudly Paid For Polling,Circuit Confederation,Online,1000,LV,CC,0.289,0.256,0.423,0,0.032
+A,2024,2024-06-08,2024-06-09,Dataland Daily,National,Online,200,Adults,None,0.235,0.23,0.35,0.05,0.135
+A,2024,2024-06-08,2024-06-09,Cobolite Coalition Calling,Voltagea,IVR,2000,RV,CC,0.198,0.294,0.444,0,0.064
+A,2024,2024-06-07,2024-06-09,Electropolis Elects,Electropolis,Live caller,1000,LV,None,0.34,0.287,0.327,0,0.046
+A,2024,2024-06-07,2024-06-09,Dataland Daily,National,Online,200,Adults,None,0.29,0.22,0.275,0.105,0.11
+A,2024,2024-06-09,2024-06-10,Proudly Paid For Polling,Infoglen,Online,1000,LV,PDAL,0.344,0.258,0.36,0,0.038
+A,2024,2024-06-08,2024-06-10,Progressive Polling,Cortexia,Live caller,1000,LV,None,0.158,0.207,0.226,0.355,0.054
+A,2024,2024-06-10,2024-06-11,Proudly Paid For Polling,Circuiton,Online,1000,LV,DGM,0.12,0.418,0.418,0,0.044
+A,2024,2024-06-10,2024-06-11,Big Dataland Surveys,Metaflux Realm,Online,10000,RV,None,0.413,0.233,0.289,0,0.065
+A,2024,2024-06-10,2024-06-11,Dataland Daily,National,Online,200,Adults,None,0.225,0.285,0.34,0.08,0.07
+A,2024,2024-06-09,2024-06-11,Dataland Daily,National,Online,200,Adults,None,0.22,0.255,0.33,0.055,0.14
+A,2024,2024-06-10,2024-06-12,Cobolite Coalition Calling,Binaryshire,IVR,2000,RV,CC,0.87,0.013,0.066,0,0.052
+A,2024,2024-06-10,2024-06-12,Dataland Register-Gazette,National,Live caller,1500,LV,None,0.285,0.223,0.365,0.081,0.046
+A,2024,2024-06-10,2024-06-12,Cobolite Coalition Calling,Neuronia,IVR,2000,RV,CC,0.044,0.248,0.095,0.558,0.056
+A,2024,2024-06-12,2024-06-13,Dataland Daily,National,Online,200,Adults,None,0.285,0.23,0.315,0.045,0.125
+A,2024,2024-06-11,2024-06-13,Progressive Polling,Byteforge Domain,Live caller,1000,LV,PDAL,0.323,0.067,0.551,0,0.059
+A,2024,2024-06-11,2024-06-13,Metaflux University,Infoglen,IVR,1500,RV,None,0.415,0.278,0.233,0,0.073
+A,2024,2024-06-11,2024-06-13,Dataland Daily,National,Online,200,Adults,None,0.23,0.265,0.32,0.05,0.135
+A,2024,2024-06-13,2024-06-14,Dataland Register-Gazette,Cortexia,Live caller,1500,LV,None,0.174,0.207,0.237,0.349,0.034
+A,2024,2024-06-13,2024-06-14,Progressive Polling,Cortexia,Live caller,1000,LV,None,0.152,0.202,0.263,0.343,0.04
+A,2024,2024-06-13,2024-06-14,Dataland Daily,National,Online,200,Adults,None,0.19,0.28,0.315,0.08,0.135
+A,2024,2024-06-12,2024-06-14,Big Dataland Surveys,Circuit Confederation,Online,10000,RV,None,0.225,0.314,0.399,0,0.061
+A,2024,2024-06-12,2024-06-14,Cobolite Coalition Calling,Neuronia,IVR,2000,RV,CC,0.063,0.176,0.071,0.628,0.061
+A,2024,2024-06-12,2024-06-14,Metaflux University,Quantumridge,IVR,1500,RV,None,0.223,0.299,0.412,0,0.067
+A,2024,2024-06-14,2024-06-15,Electropolis Elects,Electropolis,Live caller,1000,LV,None,0.335,0.273,0.349,0,0.043
+A,2024,2024-06-14,2024-06-15,Dataland Register-Gazette,Metaflux Realm,Live caller,1500,LV,None,0.419,0.219,0.324,0,0.038
+A,2024,2024-06-14,2024-06-15,Dataland Daily,National,Online,200,Adults,None,0.27,0.19,0.41,0.055,0.075
+A,2024,2024-06-14,2024-06-15,Big Dataland Surveys,National,Online,10000,RV,None,0.22,0.261,0.398,0.068,0.053
+A,2024,2024-06-13,2024-06-15,Proudly Paid For Polling,Metaflux Realm,Online,1000,LV,CC,0.457,0.218,0.278,0,0.047
+A,2024,2024-06-14,2024-06-16,Synapse Strategies,Cerebrica,Online,1000,LV,SSP,0.319,0.293,0.252,0.096,0.04
+A,2024,2024-06-14,2024-06-16,Synapse Strategies,Cortexia,Online,1000,LV,None,0.155,0.224,0.242,0.357,0.022
+A,2024,2024-06-14,2024-06-16,Dataland Register-Gazette,National,Live caller,1500,LV,None,0.267,0.263,0.371,0.068,0.031
+A,2024,2024-06-14,2024-06-16,Synapse Strategies,Neuronia,Online,1000,LV,SSP,0.043,0.184,0.068,0.677,0.028
+A,2024,2024-06-14,2024-06-16,Synapse Strategies,Synapse Territories,Online,1000,LV,SSP,0.193,0.238,0.195,0.349,0.025
+B,2024,2024-04-02,2024-04-03,Dataland Daily,National,Online,200,Adults,None,0.28,0.205,0.32,0.045,0.15
+B,2024,2024-04-02,2024-04-04,Cobolite Coalition Calling,Cortexia,IVR,2000,RV,CC,0.182,0.177,0.174,0.299,0.169
+B,2024,2024-04-04,2024-04-05,Dataland Daily,National,Online,200,Adults,None,0.2,0.235,0.275,0.05,0.24
+B,2024,2024-04-03,2024-04-05,Dataland Daily,National,Online,200,Adults,None,0.245,0.19,0.315,0.065,0.185
+B,2024,2024-04-06,2024-04-07,Dataland Daily,National,Online,200,Adults,None,0.305,0.23,0.24,0.045,0.18
+B,2024,2024-04-05,2024-04-07,Dataland Daily,National,Online,200,Adults,None,0.285,0.18,0.335,0.05,0.15
+B,2024,2024-04-07,2024-04-08,Cobolite Coalition Calling,Byteforge Domain,IVR,2000,RV,None,0.418,0.063,0.383,0,0.136
+B,2024,2024-04-07,2024-04-08,Dataland Daily,National,Online,200,Adults,None,0.285,0.195,0.32,0.03,0.17
+B,2024,2024-04-07,2024-04-08,Big Dataland Surveys,National,Online,10000,RV,None,0.266,0.202,0.282,0.061,0.189
+B,2024,2024-04-06,2024-04-08,No Province Left Behind,Quantumridge,IVR,500,RV,None,0.138,0.268,0.462,0,0.132
+B,2024,2024-04-08,2024-04-10,Dataland Daily,National,Online,200,Adults,None,0.21,0.22,0.285,0.05,0.235
+B,2024,2024-04-09,2024-04-11,Cobolite Coalition Calling,Infinitron Peninsula,IVR,2000,RV,CC,0.576,0.136,0.131,0,0.157
+B,2024,2024-04-09,2024-04-11,Dataland Daily,National,Online,200,Adults,None,0.375,0.185,0.235,0.075,0.13
+B,2024,2024-04-11,2024-04-12,Dataland Daily,National,Online,200,Adults,None,0.25,0.22,0.255,0.11,0.165
+B,2024,2024-04-10,2024-04-12,Dataland Daily,National,Online,200,Adults,None,0.325,0.16,0.255,0.085,0.175
+B,2024,2024-04-12,2024-04-13,Dataland Daily,National,Online,200,Adults,None,0.21,0.215,0.3,0.055,0.22
+B,2024,2024-04-11,2024-04-13,Cobolite Coalition Calling,Quantumridge,IVR,2000,RV,None,0.184,0.23,0.421,0,0.165
+B,2024,2024-04-12,2024-04-14,Cobolite Coalition Calling,Byteforge Domain,IVR,2000,RV,CC,0.445,0.048,0.327,0,0.18
+B,2024,2024-04-12,2024-04-14,Synapse Strategies,Cortexia,Online,1000,RV,None,0.138,0.18,0.234,0.329,0.119
+B,2024,2024-04-12,2024-04-14,No Province Left Behind,Quantumridge,IVR,500,RV,None,0.206,0.196,0.452,0,0.146
+B,2024,2024-04-14,2024-04-15,Progressive Polling,Byteforge Domain,Live caller,1000,Adults,PDAL,0.405,0.058,0.411,0,0.126
+B,2024,2024-04-14,2024-04-15,Dataland Daily,National,Online,200,Adults,None,0.205,0.29,0.275,0.055,0.175
+B,2024,2024-04-13,2024-04-15,Dataland Daily,National,Online,200,Adults,None,0.24,0.205,0.275,0.075,0.205
+B,2024,2024-04-16,2024-04-17,Dataland Daily,National,Online,200,Adults,None,0.275,0.17,0.34,0.07,0.145
+B,2024,2024-04-15,2024-04-17,Cobolite Coalition Calling,Byteforge Domain,IVR,2000,RV,CC,0.457,0.044,0.328,0,0.171
+B,2024,2024-04-15,2024-04-17,Dataland Daily,National,Online,200,Adults,None,0.295,0.19,0.275,0.055,0.185
+B,2024,2024-04-17,2024-04-18,Dataland Daily,National,Online,200,Adults,None,0.2,0.16,0.33,0.065,0.245
+B,2024,2024-04-17,2024-04-18,Big Dataland Surveys,National,Online,10000,RV,None,0.284,0.217,0.276,0.066,0.156
+B,2024,2024-04-17,2024-04-18,Synapse Strategies,Neuronia,Online,1000,RV,SSP,0.031,0.112,0.077,0.636,0.144
+B,2024,2024-04-17,2024-04-19,Big Dataland Surveys,Circuit Confederation,Online,10000,RV,None,0.235,0.25,0.339,0,0.176
+C,2024,2024-04-02,2024-04-03,Dataland Daily,National,Online,200,Adults,None,0.175,0.25,0.225,0.065,0.285
+C,2024,2024-04-03,2024-04-04,Progressive Polling,Cortexia,Live caller,1000,Adults,None,0.1,0.195,0.265,0.304,0.136
+C,2024,2024-04-03,2024-04-04,Dataland Daily,National,Online,200,Adults,None,0.235,0.245,0.265,0.06,0.195
+C,2024,2024-04-02,2024-04-04,Cobolite Coalition Calling,Infoglen,IVR,2000,RV,CC,0.264,0.287,0.278,0,0.17
+C,2024,2024-04-04,2024-04-05,Progressive Polling,Circuiton,Live caller,1000,Adults,None,0.079,0.476,0.306,0,0.139
+C,2024,2024-04-05,2024-04-06,Big Dataland Surveys,Metaflux Realm,Online,10000,RV,None,0.231,0.322,0.235,0,0.212
+C,2024,2024-04-05,2024-04-06,Dataland Daily,National,Online,200,Adults,None,0.125,0.34,0.25,0.055,0.23
+C,2024,2024-04-04,2024-04-06,Dataland Daily,National,Online,200,Adults,None,0.175,0.32,0.25,0.045,0.21
+C,2024,2024-04-06,2024-04-07,Progressive Polling,Cortexia,Live caller,1000,Adults,None,0.102,0.268,0.231,0.264,0.135
+C,2024,2024-04-06,2024-04-08,Dataland Daily,National,Online,200,Adults,None,0.185,0.255,0.235,0.065,0.26
+C,2024,2024-04-06,2024-04-08,Big Dataland Surveys,National,Online,10000,RV,None,0.197,0.343,0.232,0.06,0.168
+C,2024,2024-04-08,2024-04-09,Cobolite Coalition Calling,Voltagea,IVR,2000,RV,CC,0.192,0.37,0.299,0,0.139
+C,2024,2024-04-07,2024-04-09,Dataland Daily,National,Online,200,Adults,None,0.175,0.325,0.27,0.045,0.185
+C,2024,2024-04-08,2024-04-10,Dataland Daily,National,Online,200,Adults,None,0.16,0.32,0.225,0.08,0.215
+C,2024,2024-04-08,2024-04-10,Cobolite Coalition Calling,Neuronia,IVR,2000,RV,CC,0.08,0.216,0.114,0.4,0.19
+C,2024,2024-04-10,2024-04-11,Dataland Daily,National,Online,200,Adults,None,0.21,0.26,0.265,0.08,0.185
+C,2024,2024-04-09,2024-04-11,Dataland Daily,National,Online,200,Adults,None,0.195,0.225,0.33,0.04,0.21
+C,2024,2024-04-11,2024-04-12,Progressive Polling,Cortexia,Live caller,1000,Adults,PDAL,0.097,0.203,0.245,0.3,0.155
+C,2024,2024-04-11,2024-04-12,Dataland Daily,National,Online,200,Adults,None,0.21,0.28,0.32,0.035,0.155
+C,2024,2024-04-11,2024-04-12,Big Dataland Surveys,National,Online,10000,RV,None,0.188,0.328,0.259,0.057,0.168
+C,2024,2024-04-11,2024-04-12,Cobolite Coalition Calling,Synapse Territories,IVR,2000,RV,CC,0.152,0.192,0.24,0.232,0.184
+C,2024,2024-04-12,2024-04-13,Progressive Polling,Cortexia,Live caller,1000,Adults,None,0.093,0.243,0.22,0.328,0.116
+C,2024,2024-04-13,2024-04-14,Synapse Strategies,Synapse Territories,Online,1000,RV,SSP,0.127,0.243,0.191,0.292,0.147
+C,2024,2024-04-12,2024-04-14,Dataland Daily,National,Online,200,Adults,None,0.175,0.33,0.25,0.06,0.185
+C,2024,2024-04-13,2024-04-15,Progressive Polling,Infoglen,Live caller,1000,Adults,None,0.224,0.386,0.286,0,0.104
+C,2024,2024-04-13,2024-04-15,Dataland Daily,National,Online,200,Adults,None,0.205,0.29,0.25,0.05,0.205
+C,2024,2024-04-14,2024-04-16,Dataland Daily,National,Online,200,Adults,None,0.105,0.345,0.315,0.06,0.175
+C,2024,2024-04-16,2024-04-17,Progressive Polling,Circuiton,Live caller,1000,Adults,None,0.127,0.433,0.314,0,0.126
+C,2024,2024-04-16,2024-04-17,Dataland Daily,National,Online,200,Adults,None,0.145,0.285,0.355,0.075,0.14
+C,2024,2024-04-15,2024-04-17,Dataland Daily,National,Online,200,Adults,None,0.2,0.35,0.235,0.03,0.185
+C,2024,2024-04-17,2024-04-18,Dataland Daily,National,Online,200,Adults,None,0.13,0.365,0.28,0.05,0.175
+C,2024,2024-04-18,2024-04-19,Cobolite Coalition Calling,Infinitron Peninsula,IVR,2000,RV,CC,0.401,0.29,0.178,0,0.132
+C,2024,2024-04-18,2024-04-20,Metaflux University,Infoglen,IVR,1500,Adults,None,0.197,0.403,0.279,0,0.121
+C,2024,2024-04-18,2024-04-20,Dataland Daily,National,Online,200,Adults,None,0.13,0.435,0.22,0.055,0.16
+C,2024,2024-04-20,2024-04-21,Dataland Daily,National,Online,200,Adults,None,0.15,0.3,0.275,0.055,0.22
+C,2024,2024-04-19,2024-04-21,Dataland Daily,National,Online,200,Adults,None,0.175,0.305,0.255,0.075,0.19
+C,2024,2024-04-19,2024-04-21,No Province Left Behind,Quantumridge,IVR,500,RV,None,0.166,0.412,0.322,0,0.1
+C,2024,2024-04-22,2024-04-23,Cobolite Coalition Calling,Cortexia,IVR,2000,RV,None,0.172,0.218,0.192,0.255,0.163
+C,2024,2024-04-22,2024-04-23,Big Dataland Surveys,Metaflux Realm,Online,10000,RV,None,0.261,0.372,0.244,0,0.124
+C,2024,2024-04-22,2024-04-23,Dataland Daily,National,Online,200,Adults,None,0.16,0.31,0.305,0.06,0.165
+C,2024,2024-04-22,2024-04-23,No Province Left Behind,National,IVR,500,RV,None,0.194,0.324,0.27,0.05,0.162
+C,2024,2024-04-21,2024-04-23,Dataland Daily,National,Online,200,Adults,None,0.21,0.3,0.29,0.05,0.15
+C,2024,2024-04-23,2024-04-24,Cobolite Coalition Calling,Amperville,IVR,2000,RV,None,0.064,0.201,0.581,0,0.154
+C,2024,2024-04-23,2024-04-24,Conference Board of Dataland,Synapse Territories,Live caller,3000,LV,None,0.141,0.285,0.218,0.24,0.116
+C,2024,2024-04-24,2024-04-25,Metaflux University,Infoglen,IVR,1500,Adults,None,0.283,0.329,0.277,0,0.111
+C,2024,2024-04-23,2024-04-25,Dataland Daily,National,Online,200,Adults,None,0.145,0.325,0.275,0.09,0.165
+C,2024,2024-04-23,2024-04-25,Cobolite Coalition Calling,Synapse Territories,IVR,2000,RV,CC,0.165,0.164,0.167,0.328,0.176
+C,2024,2024-04-25,2024-04-26,Metaflux University,Infinitron Peninsula,IVR,1500,Adults,None,0.369,0.417,0.109,0,0.105
+C,2024,2024-04-24,2024-04-26,Dataland Daily,National,Online,200,Adults,None,0.19,0.32,0.25,0.045,0.195
+C,2024,2024-04-25,2024-04-27,Dataland Daily,National,Online,200,Adults,None,0.185,0.33,0.23,0.075,0.18
+C,2024,2024-04-27,2024-04-28,Proudly Paid For Polling,Byteforge Domain,Online,1000,RV,PDAL,0.257,0.155,0.48,0,0.108
+C,2024,2024-04-27,2024-04-28,Proudly Paid For Polling,Metaflux Realm,Online,1000,RV,CC,0.331,0.324,0.277,0,0.068
+C,2024,2024-04-26,2024-04-28,Progressive Polling,Infoglen,Live caller,1000,Adults,None,0.242,0.394,0.199,0,0.165
+C,2024,2024-04-26,2024-04-28,Dataland Daily,National,Online,200,Adults,None,0.225,0.3,0.25,0.055,0.17
+C,2024,2024-04-28,2024-04-29,Proudly Paid For Polling,Circuit Confederation,Online,1000,RV,DGM,0.154,0.411,0.258,0,0.177
+C,2024,2024-04-28,2024-04-29,Cobolite Coalition Calling,Metaflux Realm,IVR,2000,RV,None,0.369,0.226,0.295,0,0.11
+C,2024,2024-04-27,2024-04-29,Dataland Daily,National,Online,200,Adults,None,0.21,0.355,0.27,0.055,0.11
+C,2024,2024-04-29,2024-04-30,Dataland Daily,National,Online,200,Adults,None,0.2,0.31,0.3,0.02,0.17
+C,2024,2024-04-28,2024-04-30,Metaflux University,Infoglen,IVR,1500,RV,None,0.276,0.405,0.207,0,0.112
+C,2024,2024-04-28,2024-04-30,Dataland Daily,National,Online,200,Adults,None,0.135,0.275,0.33,0.065,0.195
+C,2024,2024-04-28,2024-04-30,Cobolite Coalition Calling,Synapse Territories,IVR,2000,RV,CC,0.214,0.242,0.128,0.28,0.135
+C,2024,2024-04-30,2024-05-01,Dataland Register-Gazette,Circuit Confederation,Live caller,1500,RV,None,0.229,0.275,0.377,0,0.119
+C,2024,2024-04-30,2024-05-01,Big Dataland Surveys,Metaflux Realm,Online,10000,RV,None,0.337,0.328,0.21,0,0.125
+C,2024,2024-04-30,2024-05-01,Proudly Paid For Polling,National,Online,1000,RV,CC,0.275,0.296,0.267,0.053,0.109
+C,2024,2024-04-30,2024-05-01,Synapse Strategies,Synapse Territories,Online,1000,RV,SSP,0.155,0.266,0.214,0.295,0.07
+C,2024,2024-04-29,2024-05-01,Big Dataland Surveys,Metaflux Realm,Online,10000,RV,None,0.23,0.348,0.282,0,0.14
+C,2024,2024-05-01,2024-05-02,Dataland Register-Gazette,Infoglen,Live caller,1500,RV,None,0.291,0.377,0.221,0,0.111
+C,2024,2024-04-30,2024-05-02,Conference Board of Dataland,Circuit Confederation,Live caller,3000,LV,None,0.233,0.317,0.334,0,0.116
+C,2024,2024-04-30,2024-05-02,Conference Board of Dataland,Metaflux Realm,Live caller,3000,LV,None,0.33,0.308,0.258,0,0.104
+C,2024,2024-04-30,2024-05-02,Dataland Daily,National,Online,200,Adults,None,0.185,0.275,0.29,0.07,0.18
+C,2024,2024-04-30,2024-05-02,Conference Board of Dataland,Synapse Territories,Live caller,3000,LV,None,0.19,0.26,0.222,0.241,0.087
+C,2024,2024-05-02,2024-05-03,Metaflux University,Infoglen,IVR,1500,RV,None,0.276,0.365,0.227,0,0.132
+C,2024,2024-05-02,2024-05-03,Dataland Daily,National,Online,200,Adults,None,0.165,0.32,0.25,0.065,0.2
+C,2024,2024-05-01,2024-05-03,Proudly Paid For Polling,Byteforge Domain,Online,1000,RV,CC,0.37,0.149,0.37,0,0.111
+C,2024,2024-05-01,2024-05-03,Dataland Register-Gazette,Circuiton,Live caller,1500,RV,None,0.147,0.412,0.325,0,0.115
+C,2024,2024-05-01,2024-05-03,Dataland Daily,National,Online,200,Adults,None,0.2,0.245,0.28,0.07,0.205
+C,2024,2024-05-03,2024-05-04,Dataland Daily,National,Online,200,Adults,None,0.22,0.31,0.285,0.045,0.14
+C,2024,2024-05-02,2024-05-04,Dataland Register-Gazette,Circuit Confederation,Live caller,1500,RV,None,0.223,0.344,0.347,0,0.085
+C,2024,2024-05-02,2024-05-04,Proudly Paid For Polling,Infinitron Peninsula,Online,1000,RV,DGM,0.32,0.459,0.126,0,0.095
+C,2024,2024-05-02,2024-05-04,No Province Left Behind,Quantumridge,IVR,500,RV,None,0.194,0.364,0.336,0,0.106
+C,2024,2024-05-04,2024-05-05,Dataland Daily,National,Online,200,Adults,None,0.205,0.24,0.28,0.065,0.21
+C,2024,2024-05-04,2024-05-05,Metaflux University,Quantumridge,IVR,1500,RV,None,0.165,0.338,0.358,0,0.139
+C,2024,2024-05-04,2024-05-05,Dataland Register-Gazette,Voltagea,Live caller,1500,RV,None,0.127,0.425,0.354,0,0.095
+C,2024,2024-05-03,2024-05-05,No Province Left Behind,Infinitron Peninsula,IVR,500,RV,None,0.396,0.374,0.13,0,0.1
+C,2024,2024-05-05,2024-05-06,Dataland Daily,National,Online,200,Adults,None,0.175,0.295,0.3,0.06,0.17
+C,2024,2024-05-05,2024-05-06,No Province Left Behind,Quantumridge,IVR,500,RV,None,0.12,0.4,0.374,0,0.106
+C,2024,2024-05-05,2024-05-06,Progressive Polling,Voltagea,Live caller,1000,Adults,None,0.105,0.394,0.387,0,0.114
+C,2024,2024-05-04,2024-05-06,Progressive Polling,Electropolis,Live caller,1000,Adults,None,0.394,0.274,0.235,0,0.097
+C,2024,2024-05-05,2024-05-07,Proudly Paid For Polling,Amperville,Online,1000,RV,DGM,0.057,0.33,0.515,0,0.098
+C,2024,2024-05-07,2024-05-08,Cobolite Coalition Calling,Binaryshire,IVR,2000,RV,CC,0.749,0.034,0.106,0,0.111
+C,2024,2024-05-07,2024-05-08,Conference Board of Dataland,Circuit Confederation,Live caller,3000,LV,None,0.208,0.319,0.388,0,0.085
+C,2024,2024-05-07,2024-05-08,Dataland Daily,National,Online,200,Adults,None,0.195,0.255,0.305,0.045,0.2
+C,2024,2024-05-07,2024-05-08,Dataland Register-Gazette,Synapse Territories,Live caller,1500,RV,None,0.144,0.277,0.266,0.229,0.085
+C,2024,2024-05-07,2024-05-08,Conference Board of Dataland,Synapse Territories,Live caller,3000,LV,None,0.156,0.255,0.283,0.222,0.084
+C,2024,2024-05-06,2024-05-08,Dataland Register-Gazette,Circuit Confederation,Live caller,1500,RV,None,0.224,0.312,0.361,0,0.103
+C,2024,2024-05-06,2024-05-08,Cobolite Coalition Calling,Infoglen,IVR,2000,RV,None,0.226,0.338,0.306,0,0.13
+C,2024,2024-05-06,2024-05-08,Metaflux University,Infoglen,IVR,1500,RV,None,0.303,0.388,0.171,0,0.138
+C,2024,2024-05-06,2024-05-08,Big Dataland Surveys,Metaflux Realm,Online,10000,RV,None,0.284,0.314,0.258,0,0.144
+C,2024,2024-05-06,2024-05-08,Dataland Daily,National,Online,200,Adults,None,0.145,0.395,0.22,0.075,0.165
+C,2024,2024-05-08,2024-05-09,Cobolite Coalition Calling,Byteforge Domain,IVR,2000,RV,CC,0.358,0.115,0.42,0,0.107
+C,2024,2024-05-08,2024-05-09,Dataland Register-Gazette,Circuit Confederation,Live caller,1500,RV,None,0.215,0.347,0.35,0,0.087
+C,2024,2024-05-08,2024-05-09,Progressive Polling,Cortexia,Live caller,1000,Adults,None,0.122,0.274,0.253,0.259,0.092
+C,2024,2024-05-07,2024-05-09,Conference Board of Dataland,Metaflux Realm,Live caller,3000,LV,None,0.292,0.297,0.313,0,0.098
+C,2024,2024-05-09,2024-05-10,Dataland Daily,National,Online,200,Adults,None,0.115,0.345,0.295,0.045,0.2
+C,2024,2024-05-08,2024-05-10,Dataland Register-Gazette,Byteforge Domain,Live caller,1500,RV,None,0.272,0.16,0.503,0,0.065
+C,2024,2024-05-08,2024-05-10,Dataland Daily,National,Online,200,Adults,None,0.14,0.375,0.315,0.03,0.14
+C,2024,2024-05-08,2024-05-10,Dataland Register-Gazette,National,Live caller,1500,RV,None,0.209,0.325,0.33,0.055,0.082
+C,2024,2024-05-10,2024-05-11,Proudly Paid For Polling,Infoglen,Online,1000,LV,CC,0.307,0.349,0.238,0,0.106
+C,2024,2024-05-10,2024-05-11,Dataland Daily,National,Online,200,Adults,None,0.16,0.33,0.26,0.065,0.185
+C,2024,2024-05-10,2024-05-11,Big Dataland Surveys,Synapse Territories,Online,10000,RV,None,0.135,0.282,0.248,0.225,0.109
+C,2024,2024-05-09,2024-05-11,Dataland Register-Gazette,Circuit Confederation,Live caller,1500,RV,None,0.193,0.297,0.431,0,0.079
+C,2024,2024-05-09,2024-05-11,Proudly Paid For Polling,Electropolis,Online,1000,LV,DGM,0.291,0.367,0.237,0,0.105
+C,2024,2024-05-09,2024-05-11,Proudly Paid For Polling,Infoglen,Online,1000,LV,PDAL,0.248,0.38,0.296,0,0.076
+C,2024,2024-05-10,2024-05-12,Dataland Register-Gazette,Metaflux Realm,Live caller,1500,RV,None,0.283,0.313,0.329,0,0.075
+D,2024,2024-04-03,2024-04-04,Dataland Daily,National,Online,200,Adults,None,0.155,0.29,0.275,0.035,0.245
+D,2024,2024-04-02,2024-04-04,Dataland Daily,National,Online,200,Adults,None,0.185,0.235,0.295,0.05,0.235
+D,2024,2024-04-05,2024-04-06,Progressive Polling,Circuiton,Live caller,1000,Adults,None,0.046,0.4,0.403,0,0.151
+D,2024,2024-04-05,2024-04-06,Big Dataland Surveys,Metaflux Realm,Online,10000,RV,None,0.257,0.291,0.287,0,0.166
+D,2024,2024-04-04,2024-04-06,Dataland Daily,National,Online,200,Adults,None,0.175,0.31,0.29,0.04,0.185
+D,2024,2024-04-06,2024-04-07,Dataland Daily,National,Online,200,Adults,None,0.16,0.365,0.295,0.025,0.155
+D,2024,2024-04-05,2024-04-07,Big Dataland Surveys,Circuit Confederation,Online,10000,RV,None,0.15,0.351,0.347,0,0.153
+D,2024,2024-04-05,2024-04-07,Dataland Daily,National,Online,200,Adults,None,0.18,0.275,0.275,0.035,0.235
+D,2024,2024-04-05,2024-04-07,Big Dataland Surveys,National,Online,10000,RV,None,0.206,0.31,0.248,0.047,0.188
+D,2024,2024-04-07,2024-04-09,Cobolite Coalition Calling,Amperville,IVR,2000,RV,CC,0.059,0.159,0.619,0,0.164
+D,2024,2024-04-07,2024-04-09,Dataland Daily,National,Online,200,Adults,None,0.13,0.235,0.35,0.025,0.26
+D,2024,2024-04-07,2024-04-09,Big Dataland Surveys,National,Online,10000,RV,None,0.214,0.252,0.267,0.056,0.21
+D,2024,2024-04-09,2024-04-10,Dataland Daily,National,Online,200,Adults,None,0.195,0.22,0.37,0.055,0.16
+D,2024,2024-04-09,2024-04-10,No Province Left Behind,National,IVR,500,RV,None,0.196,0.318,0.322,0.064,0.1
+D,2024,2024-04-09,2024-04-10,Progressive Polling,Voltagea,Live caller,1000,Adults,None,0.078,0.413,0.36,0,0.149
+D,2024,2024-04-08,2024-04-10,Progressive Polling,Electropolis,Live caller,1000,Adults,None,0.204,0.251,0.411,0,0.134
+D,2024,2024-04-08,2024-04-10,Dataland Daily,National,Online,200,Adults,None,0.155,0.265,0.305,0.025,0.25
+D,2024,2024-04-10,2024-04-11,Dataland Daily,National,Online,200,Adults,None,0.17,0.22,0.36,0.05,0.2
+D,2024,2024-04-12,2024-04-13,Big Dataland Surveys,National,Online,10000,RV,None,0.171,0.29,0.33,0.054,0.154
+D,2024,2024-04-11,2024-04-13,Dataland Daily,National,Online,200,Adults,None,0.145,0.255,0.325,0.045,0.23
+D,2024,2024-04-13,2024-04-14,Dataland Daily,National,Online,200,Adults,None,0.195,0.275,0.29,0.03,0.21
+D,2024,2024-04-13,2024-04-14,Cobolite Coalition Calling,Voltagea,IVR,2000,RV,None,0.12,0.3,0.37,0,0.21
+D,2024,2024-04-12,2024-04-14,Dataland Daily,National,Online,200,Adults,None,0.1,0.315,0.34,0.075,0.17
+D,2024,2024-04-14,2024-04-15,Dataland Daily,National,Online,200,Adults,None,0.19,0.22,0.315,0.035,0.24
+D,2024,2024-04-13,2024-04-15,Cobolite Coalition Calling,Infinitron Peninsula,IVR,2000,RV,CC,0.396,0.273,0.203,0,0.128
+D,2024,2024-04-13,2024-04-15,Big Dataland Surveys,Synapse Territories,Online,10000,RV,None,0.156,0.232,0.231,0.219,0.161
+D,2024,2024-04-14,2024-04-16,Big Dataland Surveys,National,Online,10000,RV,None,0.195,0.282,0.333,0.051,0.139
+D,2024,2024-04-15,2024-04-17,Dataland Daily,National,Online,200,Adults,None,0.2,0.245,0.28,0.045,0.23
+D,2024,2024-04-17,2024-04-18,No Province Left Behind,Quantumridge,IVR,500,RV,None,0.11,0.324,0.414,0,0.152
+D,2024,2024-04-16,2024-04-18,Dataland Daily,National,Online,200,Adults,None,0.14,0.26,0.345,0.04,0.215
+D,2024,2024-04-18,2024-04-19,Metaflux University,Infoglen,IVR,1500,Adults,None,0.295,0.319,0.263,0,0.123
+D,2024,2024-04-18,2024-04-19,Metaflux University,Quantumridge,IVR,1500,Adults,None,0.121,0.316,0.419,0,0.143
+D,2024,2024-04-18,2024-04-19,Big Dataland Surveys,Synapse Territories,Online,10000,RV,None,0.183,0.22,0.23,0.214,0.154
+D,2024,2024-04-17,2024-04-19,Dataland Daily,National,Online,200,Adults,None,0.22,0.275,0.3,0.025,0.18
+D,2024,2024-04-19,2024-04-20,Dataland Daily,National,Online,200,Adults,None,0.19,0.275,0.24,0.03,0.265
+D,2024,2024-04-19,2024-04-20,Cobolite Coalition Calling,Synapse Territories,IVR,2000,RV,None,0.193,0.159,0.236,0.24,0.172
+D,2024,2024-04-18,2024-04-20,Dataland Daily,National,Online,200,Adults,None,0.195,0.24,0.345,0.05,0.17
+D,2024,2024-04-20,2024-04-21,Metaflux University,Byteforge Domain,IVR,1500,Adults,None,0.322,0.141,0.415,0,0.121
+D,2024,2024-04-19,2024-04-21,Progressive Polling,Electropolis,Live caller,1000,Adults,PDAL,0.216,0.306,0.379,0,0.099
+D,2024,2024-04-21,2024-04-22,Dataland Daily,National,Online,200,Adults,None,0.135,0.25,0.36,0.06,0.195
+D,2024,2024-04-20,2024-04-22,Dataland Daily,National,Online,200,Adults,None,0.155,0.28,0.285,0.045,0.235
+D,2024,2024-04-22,2024-04-23,Metaflux University,Metaflux Realm,IVR,1500,Adults,None,0.249,0.248,0.345,0,0.158
+D,2024,2024-04-22,2024-04-23,Dataland Daily,National,Online,200,Adults,None,0.1,0.265,0.315,0.03,0.29
+D,2024,2024-04-23,2024-04-24,Metaflux University,Infinitron Peninsula,IVR,1500,Adults,None,0.246,0.37,0.215,0,0.169
+D,2024,2024-04-22,2024-04-24,Cobolite Coalition Calling,Electropolis,IVR,2000,RV,CC,0.34,0.245,0.252,0,0.163
+D,2024,2024-04-23,2024-04-25,Cobolite Coalition Calling,Electropolis,IVR,2000,RV,CC,0.377,0.239,0.222,0,0.162
+D,2024,2024-04-23,2024-04-25,Metaflux University,Metaflux Realm,IVR,1500,Adults,None,0.275,0.254,0.283,0,0.189
+D,2024,2024-04-23,2024-04-25,Dataland Daily,National,Online,200,Adults,None,0.15,0.24,0.295,0.065,0.25
+D,2024,2024-04-23,2024-04-25,Conference Board of Dataland,Synapse Territories,Live caller,3000,LV,None,0.172,0.227,0.245,0.238,0.118
+D,2024,2024-04-25,2024-04-26,Metaflux University,Byteforge Domain,IVR,1500,Adults,None,0.309,0.151,0.401,0,0.138
+D,2024,2024-04-25,2024-04-26,Big Dataland Surveys,Circuit Confederation,Online,10000,RV,None,0.163,0.287,0.403,0,0.147
+D,2024,2024-04-25,2024-04-26,Dataland Daily,National,Online,200,Adults,None,0.165,0.36,0.205,0.045,0.225
+D,2024,2024-04-24,2024-04-26,Progressive Polling,Byteforge Domain,Live caller,1000,Adults,PDAL,0.233,0.12,0.521,0,0.126
+D,2024,2024-04-24,2024-04-26,Dataland Daily,National,Online,200,Adults,None,0.19,0.28,0.245,0.035,0.25
+D,2024,2024-04-27,2024-04-28,Dataland Daily,National,Online,200,Adults,None,0.13,0.275,0.36,0.035,0.2
+D,2024,2024-04-26,2024-04-28,Dataland Daily,National,Online,200,Adults,None,0.15,0.31,0.29,0.045,0.205
+D,2024,2024-04-28,2024-04-29,Dataland Register-Gazette,Infoglen,Live caller,1500,RV,None,0.269,0.307,0.327,0,0.097
+D,2024,2024-04-28,2024-04-29,Dataland Daily,National,Online,200,Adults,None,0.215,0.23,0.31,0.045,0.2
+D,2024,2024-04-29,2024-04-30,Metaflux University,Byteforge Domain,IVR,1500,RV,None,0.315,0.125,0.419,0,0.141
+D,2024,2024-04-29,2024-04-30,Proudly Paid For Polling,Byteforge Domain,Online,1000,RV,DGM,0.325,0.16,0.382,0,0.133
+D,2024,2024-04-29,2024-04-30,Cobolite Coalition Calling,Cortexia,IVR,2000,RV,CC,0.152,0.186,0.238,0.266,0.158
+D,2024,2024-04-29,2024-04-30,Dataland Daily,National,Online,200,Adults,None,0.175,0.275,0.325,0.06,0.165
+D,2024,2024-04-28,2024-04-30,Proudly Paid For Polling,Amperville,Online,1000,RV,PDAL,0.028,0.187,0.648,0,0.137
+D,2024,2024-04-28,2024-04-30,Dataland Register-Gazette,Metaflux Realm,Live caller,1500,RV,None,0.265,0.261,0.324,0,0.149
+D,2024,2024-04-30,2024-05-01,Conference Board of Dataland,Metaflux Realm,Live caller,3000,LV,None,0.339,0.259,0.319,0,0.083
+D,2024,2024-04-30,2024-05-01,Conference Board of Dataland,Synapse Territories,Live caller,3000,LV,None,0.195,0.247,0.24,0.233,0.085
+D,2024,2024-04-30,2024-05-01,Dataland Register-Gazette,Voltagea,Live caller,1500,RV,None,0.096,0.422,0.37,0,0.112
+D,2024,2024-04-30,2024-05-01,Proudly Paid For Polling,Voltagea,Online,1000,RV,CC,0.125,0.417,0.378,0,0.08
+D,2024,2024-04-29,2024-05-01,Dataland Register-Gazette,Cortexia,Live caller,1500,RV,None,0.118,0.207,0.247,0.317,0.111
+D,2024,2024-05-01,2024-05-02,Dataland Daily,National,Online,200,Adults,None,0.2,0.225,0.275,0.06,0.24
+D,2024,2024-04-30,2024-05-02,Conference Board of Dataland,Circuit Confederation,Live caller,3000,LV,None,0.194,0.271,0.411,0,0.125
+D,2024,2024-04-30,2024-05-02,Dataland Daily,National,Online,200,Adults,None,0.14,0.36,0.225,0.065,0.21
+D,2024,2024-04-30,2024-05-02,Proudly Paid For Polling,National,Online,1000,RV,DGM,0.162,0.302,0.358,0.051,0.127
+D,2024,2024-04-30,2024-05-02,No Province Left Behind,Quantumridge,IVR,500,RV,None,0.14,0.364,0.424,0,0.072
+D,2024,2024-04-30,2024-05-02,Proudly Paid For Polling,Synapse Territories,Online,1000,RV,CC,0.218,0.235,0.263,0.196,0.088
+D,2024,2024-05-02,2024-05-03,Dataland Register-Gazette,Cerebrica,Live caller,1500,RV,None,0.263,0.297,0.249,0.083,0.107
+D,2024,2024-05-02,2024-05-03,Proudly Paid For Polling,National,Online,1000,RV,PDAL,0.194,0.235,0.429,0.041,0.101
+D,2024,2024-05-02,2024-05-03,Cobolite Coalition Calling,Neuronia,IVR,2000,RV,None,0.065,0.228,0.145,0.454,0.108
+D,2024,2024-05-03,2024-05-04,Proudly Paid For Polling,Circuiton,Online,1000,RV,PDAL,0.065,0.415,0.434,0,0.086
+D,2024,2024-05-03,2024-05-04,Dataland Daily,National,Online,200,Adults,None,0.23,0.195,0.335,0.04,0.2
+D,2024,2024-05-03,2024-05-04,Dataland Register-Gazette,Voltagea,Live caller,1500,RV,None,0.076,0.383,0.431,0,0.11
+D,2024,2024-05-02,2024-05-04,Dataland Daily,National,Online,200,Adults,None,0.16,0.21,0.305,0.07,0.255
+D,2024,2024-05-02,2024-05-04,Progressive Polling,Voltagea,Live caller,1000,Adults,None,0.055,0.401,0.402,0,0.142
+D,2024,2024-05-04,2024-05-05,Synapse Strategies,Synapse Territories,Online,1000,RV,SSP,0.172,0.218,0.249,0.262,0.099
+D,2024,2024-05-05,2024-05-06,Dataland Register-Gazette,Infoglen,Live caller,1500,RV,None,0.269,0.319,0.315,0,0.097
+D,2024,2024-05-05,2024-05-06,Dataland Daily,National,Online,200,Adults,None,0.235,0.275,0.205,0.05,0.235
+D,2024,2024-05-04,2024-05-06,Dataland Daily,National,Online,200,Adults,None,0.105,0.365,0.265,0.095,0.17
+D,2024,2024-05-06,2024-05-07,Dataland Daily,National,Online,200,Adults,None,0.165,0.295,0.355,0.025,0.16
+D,2024,2024-05-05,2024-05-07,Dataland Register-Gazette,Circuit Confederation,Live caller,1500,RV,None,0.168,0.297,0.445,0,0.09
+D,2024,2024-05-07,2024-05-08,Conference Board of Dataland,Circuit Confederation,Live caller,3000,LV,None,0.171,0.316,0.41,0,0.103
+D,2024,2024-05-07,2024-05-08,Progressive Polling,Circuiton,Live caller,1000,Adults,None,0.049,0.459,0.413,0,0.079
+D,2024,2024-05-06,2024-05-08,No Province Left Behind,Infinitron Peninsula,IVR,500,RV,None,0.37,0.32,0.222,0,0.088
+D,2024,2024-05-08,2024-05-09,Proudly Paid For Polling,Quantumridge,Online,1000,LV,DGM,0.138,0.407,0.389,0,0.066
+D,2024,2024-05-07,2024-05-09,Proudly Paid For Polling,Cortexia,Online,1000,LV,PDAL,0.145,0.23,0.318,0.24,0.067
+D,2024,2024-05-07,2024-05-09,Conference Board of Dataland,Metaflux Realm,Live caller,3000,LV,None,0.31,0.26,0.321,0,0.11
+D,2024,2024-05-07,2024-05-09,Big Dataland Surveys,Metaflux Realm,Online,10000,RV,None,0.27,0.318,0.306,0,0.106
+D,2024,2024-05-07,2024-05-09,Dataland Daily,National,Online,200,Adults,None,0.18,0.3,0.29,0.05,0.18
+D,2024,2024-05-07,2024-05-09,Conference Board of Dataland,Synapse Territories,Live caller,3000,LV,None,0.189,0.24,0.252,0.218,0.1
+D,2024,2024-05-09,2024-05-10,Dataland Register-Gazette,Cerebrica,Live caller,1500,RV,None,0.267,0.291,0.291,0.042,0.109
+D,2024,2024-05-09,2024-05-10,Cobolite Coalition Calling,Circuit Confederation,IVR,2000,RV,CC,0.213,0.194,0.466,0,0.128
+D,2024,2024-05-09,2024-05-10,Dataland Daily,National,Online,200,Adults,None,0.155,0.305,0.335,0.055,0.15
+D,2024,2024-05-08,2024-05-10,Proudly Paid For Polling,Metaflux Realm,Online,1000,LV,PDAL,0.261,0.254,0.397,0,0.088
+D,2024,2024-05-08,2024-05-10,Dataland Daily,National,Online,200,Adults,None,0.15,0.305,0.35,0.06,0.135
+D,2024,2024-05-08,2024-05-10,Cobolite Coalition Calling,National,IVR,2000,RV,CC,0.246,0.284,0.314,0.054,0.103
+D,2024,2024-05-10,2024-05-11,Proudly Paid For Polling,Cortexia,Online,1000,LV,DGM,0.128,0.263,0.259,0.246,0.104
+D,2024,2024-05-09,2024-05-11,Progressive Polling,Infoglen,Live caller,1000,Adults,None,0.253,0.35,0.296,0,0.101
+D,2024,2024-05-11,2024-05-12,Synapse Strategies,Cerebrica,Online,1000,LV,SSP,0.282,0.273,0.257,0.077,0.111
+D,2024,2024-05-11,2024-05-12,Proudly Paid For Polling,National,Online,1000,LV,DGM,0.216,0.347,0.288,0.049,0.1
+D,2024,2024-05-10,2024-05-12,Cobolite Coalition Calling,Binaryshire,IVR,2000,RV,CC,0.803,0.016,0.091,0,0.09
+D,2024,2024-05-10,2024-05-12,Dataland Daily,National,Online,200,Adults,None,0.165,0.31,0.31,0.035,0.18
+D,2024,2024-05-12,2024-05-13,Dataland Daily,National,Online,200,Adults,None,0.22,0.245,0.37,0.045,0.12
+D,2024,2024-05-11,2024-05-13,Dataland Daily,National,Online,200,Adults,None,0.185,0.255,0.395,0.025,0.14
+D,2024,2024-05-13,2024-05-14,Proudly Paid For Polling,National,Online,1000,LV,PDAL,0.192,0.273,0.394,0.062,0.079
+D,2024,2024-05-13,2024-05-14,Proudly Paid For Polling,Voltagea,Online,1000,LV,PDAL,0.087,0.371,0.474,0,0.068
+D,2024,2024-05-14,2024-05-15,Dataland Register-Gazette,Cerebrica,Live caller,1500,RV,None,0.264,0.341,0.272,0.061,0.062
+D,2024,2024-05-14,2024-05-15,Conference Board of Dataland,Circuit Confederation,Live caller,3000,LV,None,0.158,0.358,0.405,0,0.079
+D,2024,2024-05-14,2024-05-15,Conference Board of Dataland,Metaflux Realm,Live caller,3000,LV,None,0.3,0.289,0.316,0,0.096
+D,2024,2024-05-14,2024-05-15,Dataland Daily,National,Online,200,Adults,None,0.135,0.3,0.255,0.09,0.22
+D,2024,2024-05-14,2024-05-15,Conference Board of Dataland,Synapse Territories,Live caller,3000,LV,None,0.182,0.256,0.269,0.216,0.077
+D,2024,2024-05-13,2024-05-15,Dataland Register-Gazette,Metaflux Realm,Live caller,1500,RV,None,0.324,0.261,0.335,0,0.081
+D,2024,2024-05-13,2024-05-15,Dataland Daily,National,Online,200,Adults,None,0.18,0.32,0.26,0.07,0.17
+D,2024,2024-05-15,2024-05-16,Dataland Daily,National,Online,200,Adults,None,0.17,0.33,0.255,0.045,0.2
+D,2024,2024-05-14,2024-05-16,Metaflux University,Binaryshire,IVR,1500,RV,None,0.761,0.034,0.117,0,0.088
+D,2024,2024-05-14,2024-05-16,No Province Left Behind,Infinitron Peninsula,IVR,500,LV,None,0.278,0.41,0.194,0,0.118
+D,2024,2024-05-14,2024-05-16,Big Dataland Surveys,Synapse Territories,Online,10000,RV,None,0.155,0.301,0.238,0.213,0.093
+D,2024,2024-05-16,2024-05-17,Proudly Paid For Polling,Circuiton,Online,1000,LV,DGM,0.06,0.545,0.311,0,0.084
+D,2024,2024-05-15,2024-05-17,Proudly Paid For Polling,Infinitron Peninsula,Online,1000,LV,DGM,0.266,0.482,0.17,0,0.082
+D,2024,2024-05-15,2024-05-17,Dataland Register-Gazette,Infoglen,Live caller,1500,RV,None,0.211,0.433,0.281,0,0.075
+D,2024,2024-05-15,2024-05-17,Cobolite Coalition Calling,Voltagea,IVR,2000,RV,CC,0.148,0.442,0.306,0,0.104
+D,2024,2024-05-17,2024-05-18,Proudly Paid For Polling,Infoglen,Online,1000,LV,PDAL,0.267,0.336,0.336,0,0.061
+D,2024,2024-05-17,2024-05-18,Dataland Daily,National,Online,200,Adults,None,0.18,0.32,0.27,0.07,0.16
+D,2024,2024-05-16,2024-05-18,No Province Left Behind,Amperville,IVR,500,LV,None,0.022,0.246,0.63,0,0.102
+D,2024,2024-05-16,2024-05-18,Proudly Paid For Polling,Infinitron Peninsula,Online,1000,LV,PDAL,0.287,0.411,0.236,0,0.066
+D,2024,2024-05-16,2024-05-18,Dataland Daily,National,Online,200,Adults,None,0.19,0.295,0.31,0.075,0.13
+D,2024,2024-05-16,2024-05-18,Dataland Register-Gazette,National,Live caller,1500,RV,None,0.199,0.3,0.352,0.056,0.093
+D,2024,2024-05-18,2024-05-19,Cobolite Coalition Calling,Infoglen,IVR,2000,RV,CC,0.39,0.258,0.23,0,0.122
+D,2024,2024-05-18,2024-05-19,Dataland Daily,National,Online,200,Adults,None,0.16,0.32,0.3,0.045,0.175
+D,2024,2024-05-18,2024-05-19,Proudly Paid For Polling,National,Online,1000,LV,PDAL,0.176,0.268,0.423,0.066,0.067
+D,2024,2024-05-17,2024-05-19,Synapse Strategies,Neuronia,Online,1000,LV,SSP,0.051,0.214,0.099,0.58,0.056
+D,2024,2024-05-19,2024-05-20,Metaflux University,Metaflux Realm,IVR,1500,RV,None,0.289,0.286,0.332,0,0.093
+D,2024,2024-05-19,2024-05-20,Dataland Daily,National,Online,200,Adults,None,0.195,0.26,0.35,0.03,0.165
+D,2024,2024-05-18,2024-05-20,No Province Left Behind,Binaryshire,IVR,500,LV,None,0.784,0.024,0.118,0,0.074
+D,2024,2024-05-18,2024-05-20,Dataland Register-Gazette,Cortexia,Live caller,1500,LV,None,0.159,0.218,0.289,0.271,0.063
+D,2024,2024-05-18,2024-05-20,Electropolis Elects,Electropolis,Live caller,1000,LV,None,0.269,0.343,0.291,0,0.097
+D,2024,2024-05-18,2024-05-20,Metaflux University,Infinitron Peninsula,IVR,1500,RV,None,0.341,0.355,0.203,0,0.101
+D,2024,2024-05-20,2024-05-21,Dataland Register-Gazette,Cortexia,Live caller,1500,LV,None,0.169,0.201,0.3,0.236,0.093
+D,2024,2024-05-20,2024-05-21,Dataland Daily,National,Online,200,Adults,None,0.135,0.35,0.285,0.085,0.145
+D,2024,2024-05-19,2024-05-21,Metaflux University,Quantumridge,IVR,1500,RV,None,0.157,0.337,0.419,0,0.087
+D,2024,2024-05-21,2024-05-22,Proudly Paid For Polling,Cortexia,Online,1000,LV,CC,0.194,0.217,0.249,0.284,0.056
+D,2024,2024-05-21,2024-05-22,Dataland Daily,National,Online,200,Adults,None,0.285,0.25,0.28,0.035,0.15
+D,2024,2024-05-21,2024-05-22,Proudly Paid For Polling,Quantumridge,Online,1000,LV,CC,0.177,0.339,0.418,0,0.066
+D,2024,2024-05-20,2024-05-22,Synapse Strategies,Cortexia,Online,1000,LV,SSP,0.153,0.222,0.247,0.297,0.081
+D,2024,2024-05-20,2024-05-22,Dataland Register-Gazette,National,Live caller,1500,LV,None,0.239,0.247,0.373,0.061,0.081
+D,2024,2024-05-22,2024-05-23,Dataland Register-Gazette,Infoglen,Live caller,1500,LV,None,0.296,0.314,0.319,0,0.071
+D,2024,2024-05-22,2024-05-23,Dataland Daily,National,Online,200,Adults,None,0.17,0.325,0.285,0.085,0.135
+D,2024,2024-05-21,2024-05-23,Proudly Paid For Polling,Byteforge Domain,Online,1000,LV,CC,0.423,0.146,0.372,0,0.059
+D,2024,2024-05-23,2024-05-24,Dataland Register-Gazette,Byteforge Domain,Live caller,1500,LV,None,0.285,0.119,0.491,0,0.105
+D,2024,2024-05-23,2024-05-24,Progressive Polling,Cerebrica,Live caller,1000,LV,None,0.323,0.29,0.243,0.071,0.073
+D,2024,2024-05-23,2024-05-24,Metaflux University,Infinitron Peninsula,IVR,1500,RV,None,0.382,0.335,0.199,0,0.085
+D,2024,2024-05-23,2024-05-24,Dataland Daily,National,Online,200,Adults,None,0.195,0.315,0.26,0.08,0.15
+D,2024,2024-05-23,2024-05-24,Cobolite Coalition Calling,Synapse Territories,IVR,2000,RV,None,0.308,0.176,0.198,0.23,0.087
+D,2024,2024-05-22,2024-05-24,Proudly Paid For Polling,Neuronia,Online,1000,LV,DGM,0.048,0.247,0.11,0.532,0.063
+D,2024,2024-05-23,2024-05-25,Progressive Polling,Circuiton,Live caller,1000,LV,None,0.081,0.414,0.434,0,0.071
+D,2024,2024-05-25,2024-05-26,Dataland Daily,National,Online,200,Adults,None,0.195,0.285,0.305,0.065,0.15
+D,2024,2024-05-24,2024-05-26,Metaflux University,Binaryshire,IVR,1500,RV,None,0.797,0.018,0.083,0,0.102
+D,2024,2024-05-24,2024-05-26,Dataland Daily,National,Online,200,Adults,None,0.205,0.28,0.315,0.05,0.15
+D,2024,2024-05-25,2024-05-27,Metaflux University,Infinitron Peninsula,IVR,1500,RV,None,0.377,0.332,0.215,0,0.075
+D,2024,2024-05-25,2024-05-27,Cobolite Coalition Calling,Voltagea,IVR,2000,RV,None,0.096,0.324,0.482,0,0.097
+D,2024,2024-05-27,2024-05-28,Progressive Polling,Byteforge Domain,Live caller,1000,LV,None,0.354,0.116,0.453,0,0.077
+D,2024,2024-05-27,2024-05-28,Dataland Daily,National,Online,200,Adults,None,0.17,0.23,0.445,0.045,0.11
+D,2024,2024-05-27,2024-05-28,Synapse Strategies,Neuronia,Online,1000,LV,None,0.066,0.226,0.135,0.531,0.042
+D,2024,2024-05-27,2024-05-28,Dataland Register-Gazette,Synapse Territories,Live caller,1500,LV,None,0.205,0.231,0.279,0.229,0.055
+D,2024,2024-05-26,2024-05-28,Dataland Daily,National,Online,200,Adults,None,0.205,0.29,0.36,0.055,0.09
+D,2024,2024-05-28,2024-05-29,Progressive Polling,Byteforge Domain,Live caller,1000,LV,None,0.313,0.115,0.501,0,0.071
+D,2024,2024-05-28,2024-05-29,Electropolis Elects,Electropolis,Live caller,1000,LV,None,0.267,0.345,0.336,0,0.052
+D,2024,2024-05-28,2024-05-29,Proudly Paid For Polling,Electropolis,Online,1000,LV,DGM,0.264,0.397,0.264,0,0.075
+D,2024,2024-05-28,2024-05-29,Proudly Paid For Polling,Infoglen,Online,1000,LV,DGM,0.268,0.425,0.251,0,0.056
+D,2024,2024-05-28,2024-05-29,Dataland Register-Gazette,Metaflux Realm,Live caller,1500,LV,None,0.313,0.275,0.345,0,0.067
+D,2024,2024-05-27,2024-05-29,No Province Left Behind,Neuronia,IVR,500,LV,None,0.056,0.238,0.13,0.504,0.072
+D,2024,2024-05-29,2024-05-30,Dataland Daily,National,Online,200,Adults,None,0.21,0.28,0.375,0.025,0.11
+D,2024,2024-05-29,2024-05-30,Synapse Strategies,Neuronia,Online,1000,LV,SSP,0.044,0.173,0.098,0.627,0.058
+D,2024,2024-05-28,2024-05-30,Dataland Register-Gazette,Circuit Confederation,Live caller,1500,LV,None,0.172,0.332,0.424,0,0.072
+D,2024,2024-05-28,2024-05-30,Dataland Register-Gazette,Electropolis,Live caller,1500,LV,None,0.274,0.31,0.356,0,0.06
+D,2024,2024-05-28,2024-05-30,Dataland Daily,National,Online,200,Adults,None,0.12,0.335,0.34,0.065,0.14
+D,2024,2024-05-28,2024-05-30,Cobolite Coalition Calling,Synapse Territories,IVR,2000,RV,None,0.18,0.193,0.314,0.228,0.085
+D,2024,2024-05-30,2024-05-31,Proudly Paid For Polling,Metaflux Realm,Online,1000,LV,CC,0.35,0.274,0.289,0,0.087
+D,2024,2024-05-30,2024-05-31,Dataland Daily,National,Online,200,Adults,None,0.13,0.32,0.37,0.06,0.12
+D,2024,2024-05-31,2024-06-01,Dataland Daily,National,Online,200,Adults,None,0.16,0.285,0.345,0.055,0.155
+D,2024,2024-05-30,2024-06-01,Progressive Polling,Byteforge Domain,Live caller,1000,LV,PDAL,0.292,0.125,0.511,0,0.072
+D,2024,2024-05-30,2024-06-01,Metaflux University,Infinitron Peninsula,IVR,1500,RV,None,0.386,0.309,0.217,0,0.089
+D,2024,2024-05-30,2024-06-01,Proudly Paid For Polling,Quantumridge,Online,1000,LV,DGM,0.122,0.382,0.435,0,0.061
+D,2024,2024-05-30,2024-06-01,Proudly Paid For Polling,Voltagea,Online,1000,LV,PDAL,0.086,0.383,0.473,0,0.058
+D,2024,2024-06-01,2024-06-02,Dataland Daily,National,Online,200,Adults,None,0.155,0.315,0.315,0.07,0.145
+D,2024,2024-06-02,2024-06-03,Progressive Polling,Circuiton,Live caller,1000,LV,None,0.083,0.413,0.451,0,0.053
+D,2024,2024-06-02,2024-06-03,Proudly Paid For Polling,Metaflux Realm,Online,1000,LV,PDAL,0.293,0.256,0.404,0,0.047
+D,2024,2024-06-02,2024-06-03,Cobolite Coalition Calling,National,IVR,2000,RV,CC,0.366,0.18,0.324,0.051,0.08
+D,2024,2024-06-02,2024-06-03,No Province Left Behind,National,IVR,500,LV,None,0.204,0.35,0.348,0.05,0.048
+D,2024,2024-06-03,2024-06-04,Proudly Paid For Polling,Binaryshire,Online,1000,LV,PDAL,0.756,0.022,0.166,0,0.056
+D,2024,2024-06-02,2024-06-04,Dataland Register-Gazette,Circuiton,Live caller,1500,LV,None,0.077,0.419,0.445,0,0.058
+D,2024,2024-06-02,2024-06-04,Dataland Daily,National,Online,200,Adults,None,0.14,0.28,0.39,0.06,0.13
+D,2024,2024-06-02,2024-06-04,Proudly Paid For Polling,Neuronia,Online,1000,LV,PDAL,0.054,0.251,0.15,0.506,0.039
+D,2024,2024-06-04,2024-06-05,Synapse Strategies,Cerebrica,Online,1000,LV,None,0.293,0.308,0.276,0.061,0.062
+D,2024,2024-06-03,2024-06-05,Dataland Daily,National,Online,200,Adults,None,0.215,0.33,0.255,0.065,0.135
+D,2024,2024-06-03,2024-06-05,Cobolite Coalition Calling,Voltagea,IVR,2000,RV,None,0.148,0.422,0.362,0,0.07
+D,2024,2024-06-05,2024-06-06,Proudly Paid For Polling,Binaryshire,Online,1000,LV,CC,0.819,0.011,0.119,0,0.051
+D,2024,2024-06-05,2024-06-06,Dataland Register-Gazette,Circuiton,Live caller,1500,LV,None,0.095,0.451,0.406,0,0.047
+D,2024,2024-06-05,2024-06-06,Dataland Daily,National,Online,200,Adults,None,0.23,0.375,0.295,0.03,0.07
+D,2024,2024-06-05,2024-06-06,Dataland Register-Gazette,National,Live caller,1500,LV,None,0.222,0.265,0.407,0.056,0.049
+D,2024,2024-06-04,2024-06-06,Dataland Daily,National,Online,200,Adults,None,0.255,0.255,0.28,0.04,0.17
+D,2024,2024-06-05,2024-06-07,No Province Left Behind,Binaryshire,IVR,500,LV,None,0.776,0.028,0.148,0,0.048
+D,2024,2024-06-05,2024-06-07,Proudly Paid For Polling,Byteforge Domain,Online,1000,LV,CC,0.386,0.118,0.453,0,0.043
+D,2024,2024-06-05,2024-06-07,Metaflux University,Infoglen,IVR,1500,RV,None,0.307,0.332,0.296,0,0.065
+E,2024,2024-04-02,2024-04-03,Dataland Daily,National,Online,200,Adults,None,0.15,0.28,0.32,0.02,0.23
+E,2024,2024-04-03,2024-04-04,Dataland Daily,National,Online,200,Adults,None,0.115,0.335,0.285,0.015,0.25
+E,2024,2024-04-03,2024-04-04,Cobolite Coalition Calling,National,IVR,2000,RV,CC,0.246,0.297,0.288,0.038,0.132
+E,2024,2024-04-05,2024-04-06,Dataland Daily,National,Online,200,Adults,None,0.18,0.38,0.235,0.035,0.17
+E,2024,2024-04-05,2024-04-06,Cobolite Coalition Calling,Synapse Territories,IVR,2000,RV,None,0.122,0.296,0.27,0.14,0.172
+E,2024,2024-04-04,2024-04-06,Progressive Polling,Electropolis,Live caller,1000,Adults,None,0.182,0.387,0.286,0,0.145
+E,2024,2024-04-04,2024-04-06,Dataland Daily,National,Online,200,Adults,None,0.115,0.325,0.25,0.065,0.245
+E,2024,2024-04-06,2024-04-07,Dataland Daily,National,Online,200,Adults,None,0.135,0.335,0.25,0.035,0.245
+E,2024,2024-04-05,2024-04-07,Progressive Polling,Byteforge Domain,Live caller,1000,Adults,None,0.243,0.114,0.512,0,0.131
+E,2024,2024-04-05,2024-04-07,No Province Left Behind,Neuronia,IVR,500,RV,None,0.03,0.304,0.08,0.43,0.156
+E,2024,2024-04-07,2024-04-08,Dataland Daily,National,Online,200,Adults,None,0.125,0.43,0.255,0.03,0.16
+E,2024,2024-04-08,2024-04-09,Big Dataland Surveys,Circuit Confederation,Online,10000,RV,None,0.097,0.436,0.308,0,0.16
+E,2024,2024-04-08,2024-04-09,Dataland Daily,National,Online,200,Adults,None,0.2,0.365,0.215,0.03,0.19
+E,2024,2024-04-09,2024-04-10,Dataland Daily,National,Online,200,Adults,None,0.115,0.34,0.245,0.045,0.255
+E,2024,2024-04-08,2024-04-10,Big Dataland Surveys,Metaflux Realm,Online,10000,RV,None,0.241,0.326,0.282,0,0.152
+E,2024,2024-04-11,2024-04-12,Dataland Daily,National,Online,200,Adults,None,0.085,0.455,0.215,0.04,0.205
+E,2024,2024-04-10,2024-04-12,Dataland Daily,National,Online,200,Adults,None,0.135,0.38,0.23,0.035,0.22
+E,2024,2024-04-13,2024-04-14,Dataland Daily,National,Online,200,Adults,None,0.15,0.31,0.305,0.015,0.22
+E,2024,2024-04-12,2024-04-14,Dataland Daily,National,Online,200,Adults,None,0.11,0.295,0.27,0.03,0.295
+E,2024,2024-04-15,2024-04-16,Dataland Daily,National,Online,200,Adults,None,0.075,0.385,0.265,0.05,0.225
+E,2024,2024-04-14,2024-04-16,Progressive Polling,Circuiton,Live caller,1000,Adults,PDAL,0.053,0.5,0.329,0,0.118
+E,2024,2024-04-14,2024-04-16,Dataland Daily,National,Online,200,Adults,None,0.115,0.43,0.195,0.03,0.23
+E,2024,2024-04-16,2024-04-17,Dataland Daily,National,Online,200,Adults,None,0.16,0.375,0.295,0.03,0.14
+E,2024,2024-04-16,2024-04-17,Cobolite Coalition Calling,Voltagea,IVR,2000,RV,None,0.07,0.438,0.336,0,0.156
+E,2024,2024-04-17,2024-04-18,Big Dataland Surveys,Metaflux Realm,Online,10000,RV,None,0.237,0.357,0.26,0,0.145
+E,2024,2024-04-17,2024-04-18,Dataland Daily,National,Online,200,Adults,None,0.15,0.335,0.285,0.045,0.185
+E,2024,2024-04-18,2024-04-19,Dataland Daily,National,Online,200,Adults,None,0.11,0.345,0.27,0.05,0.225
+E,2024,2024-04-19,2024-04-20,Dataland Daily,National,Online,200,Adults,None,0.165,0.38,0.245,0.035,0.175
+E,2024,2024-04-18,2024-04-20,Big Dataland Surveys,Metaflux Realm,Online,10000,RV,None,0.238,0.353,0.279,0,0.131
+E,2024,2024-04-18,2024-04-20,Synapse Strategies,Neuronia,Online,1000,RV,SSP,0.017,0.309,0.074,0.449,0.151
+E,2024,2024-04-18,2024-04-20,No Province Left Behind,Neuronia,IVR,500,RV,None,0.028,0.422,0.074,0.4,0.076
+E,2024,2024-04-18,2024-04-20,No Province Left Behind,Quantumridge,IVR,500,RV,None,0.168,0.418,0.316,0,0.098
+E,2024,2024-04-20,2024-04-21,Dataland Daily,National,Online,200,Adults,None,0.12,0.4,0.2,0.05,0.23
+E,2024,2024-04-21,2024-04-22,Metaflux University,Binaryshire,IVR,1500,Adults,None,0.679,0.039,0.12,0,0.161
+E,2024,2024-04-21,2024-04-22,Dataland Daily,National,Online,200,Adults,None,0.135,0.425,0.28,0.035,0.125
+E,2024,2024-04-20,2024-04-22,Metaflux University,Infinitron Peninsula,IVR,1500,Adults,None,0.292,0.339,0.209,0,0.159
+E,2024,2024-04-22,2024-04-23,Dataland Daily,National,Online,200,Adults,None,0.09,0.43,0.25,0.045,0.185
+E,2024,2024-04-21,2024-04-23,Cobolite Coalition Calling,Byteforge Domain,IVR,2000,RV,None,0.408,0.113,0.326,0,0.152
+E,2024,2024-04-23,2024-04-24,Synapse Strategies,Cortexia,Online,1000,RV,None,0.072,0.331,0.251,0.17,0.176
+E,2024,2024-04-23,2024-04-24,Dataland Daily,National,Online,200,Adults,None,0.125,0.305,0.315,0.075,0.18
+E,2024,2024-04-23,2024-04-24,Cobolite Coalition Calling,Neuronia,IVR,2000,RV,CC,0.032,0.186,0.091,0.574,0.118
+E,2024,2024-04-23,2024-04-24,Conference Board of Dataland,Synapse Territories,Live caller,3000,LV,None,0.119,0.355,0.244,0.176,0.106
+E,2024,2024-04-24,2024-04-25,Metaflux University,Byteforge Domain,IVR,1500,Adults,None,0.273,0.185,0.417,0,0.125
+E,2024,2024-04-24,2024-04-25,Dataland Daily,National,Online,200,Adults,None,0.145,0.41,0.23,0.03,0.185
+E,2024,2024-04-25,2024-04-26,Dataland Daily,National,Online,200,Adults,None,0.105,0.395,0.28,0.035,0.185
+E,2024,2024-04-24,2024-04-26,Big Dataland Surveys,National,Online,10000,RV,None,0.132,0.406,0.29,0.044,0.128
+E,2024,2024-04-24,2024-04-26,No Province Left Behind,Quantumridge,IVR,500,RV,None,0.112,0.382,0.39,0,0.116
+E,2024,2024-04-26,2024-04-27,Dataland Daily,National,Online,200,Adults,None,0.125,0.36,0.3,0.045,0.17
+E,2024,2024-04-25,2024-04-27,Synapse Strategies,Neuronia,Online,1000,RV,SSP,0.011,0.287,0.06,0.515,0.127
+E,2024,2024-04-27,2024-04-28,Progressive Polling,Infoglen,Live caller,1000,Adults,None,0.167,0.446,0.298,0,0.089
+E,2024,2024-04-27,2024-04-28,Dataland Daily,National,Online,200,Adults,None,0.09,0.42,0.235,0.045,0.21
+E,2024,2024-04-27,2024-04-28,Synapse Strategies,Neuronia,Online,1000,RV,SSP,0.024,0.233,0.073,0.507,0.163
+E,2024,2024-04-26,2024-04-28,Cobolite Coalition Calling,Metaflux Realm,IVR,2000,RV,CC,0.334,0.22,0.281,0,0.164
+E,2024,2024-04-27,2024-04-29,Metaflux University,Metaflux Realm,IVR,1500,RV,None,0.305,0.307,0.281,0,0.106
+E,2024,2024-04-27,2024-04-29,Big Dataland Surveys,Synapse Territories,Online,10000,RV,None,0.099,0.405,0.212,0.138,0.146
+E,2024,2024-04-29,2024-04-30,Cobolite Coalition Calling,Infinitron Peninsula,IVR,2000,RV,CC,0.393,0.264,0.23,0,0.113
+E,2024,2024-04-29,2024-04-30,Dataland Daily,National,Online,200,Adults,None,0.15,0.295,0.31,0.015,0.23
+E,2024,2024-04-29,2024-04-30,No Province Left Behind,National,IVR,500,RV,None,0.156,0.384,0.298,0.062,0.1
+E,2024,2024-04-28,2024-04-30,No Province Left Behind,Binaryshire,IVR,500,RV,None,0.744,0.04,0.094,0,0.122
+E,2024,2024-04-28,2024-04-30,Dataland Daily,National,Online,200,Adults,None,0.155,0.32,0.28,0.045,0.2
+E,2024,2024-04-30,2024-05-01,Proudly Paid For Polling,Binaryshire,Online,1000,RV,PDAL,0.725,0.017,0.161,0,0.097
+E,2024,2024-04-30,2024-05-01,Proudly Paid For Polling,Cerebrica,Online,1000,RV,DGM,0.155,0.49,0.225,0.05,0.08
+E,2024,2024-04-30,2024-05-01,Conference Board of Dataland,Metaflux Realm,Live caller,3000,LV,None,0.295,0.323,0.274,0,0.108
+E,2024,2024-04-30,2024-05-01,No Province Left Behind,Quantumridge,IVR,500,RV,None,0.138,0.362,0.424,0,0.076
+E,2024,2024-04-30,2024-05-01,Conference Board of Dataland,Synapse Territories,Live caller,3000,LV,None,0.141,0.363,0.232,0.187,0.076
+E,2024,2024-04-29,2024-05-01,Cobolite Coalition Calling,Quantumridge,IVR,2000,RV,None,0.212,0.316,0.308,0,0.165
+E,2024,2024-05-01,2024-05-02,Dataland Daily,National,Online,200,Adults,None,0.135,0.35,0.245,0.06,0.21
+E,2024,2024-05-01,2024-05-02,Dataland Register-Gazette,Synapse Territories,Live caller,1500,RV,None,0.117,0.377,0.23,0.167,0.108
+E,2024,2024-04-30,2024-05-02,Conference Board of Dataland,Circuit Confederation,Live caller,3000,LV,None,0.147,0.398,0.341,0,0.114
+E,2024,2024-04-30,2024-05-02,Dataland Register-Gazette,Cortexia,Live caller,1500,RV,None,0.103,0.363,0.261,0.185,0.088
+E,2024,2024-04-30,2024-05-02,Dataland Daily,National,Online,200,Adults,None,0.155,0.355,0.25,0.045,0.195
+E,2024,2024-05-02,2024-05-03,Metaflux University,Byteforge Domain,IVR,1500,RV,None,0.338,0.129,0.427,0,0.107
+E,2024,2024-05-02,2024-05-03,Dataland Daily,National,Online,200,Adults,None,0.165,0.3,0.33,0.035,0.17
+E,2024,2024-05-01,2024-05-03,Cobolite Coalition Calling,Synapse Territories,IVR,2000,RV,CC,0.131,0.392,0.214,0.148,0.116
+E,2024,2024-05-03,2024-05-04,Dataland Register-Gazette,Metaflux Realm,Live caller,1500,RV,None,0.305,0.314,0.273,0,0.109
+E,2024,2024-05-03,2024-05-04,Proudly Paid For Polling,Metaflux Realm,Online,1000,RV,DGM,0.269,0.419,0.227,0,0.085
+E,2024,2024-05-03,2024-05-04,Dataland Daily,National,Online,200,Adults,None,0.17,0.37,0.215,0.025,0.22
+E,2024,2024-05-02,2024-05-04,Big Dataland Surveys,Circuit Confederation,Online,10000,RV,None,0.118,0.454,0.318,0,0.111
+E,2024,2024-05-02,2024-05-04,Metaflux University,Metaflux Realm,IVR,1500,RV,None,0.305,0.305,0.282,0,0.109
+E,2024,2024-05-04,2024-05-05,Proudly Paid For Polling,Infoglen,Online,1000,RV,DGM,0.2,0.472,0.234,0,0.094
+E,2024,2024-05-04,2024-05-05,Cobolite Coalition Calling,Quantumridge,IVR,2000,RV,CC,0.216,0.331,0.306,0,0.147
+E,2024,2024-05-03,2024-05-05,No Province Left Behind,Binaryshire,IVR,500,RV,None,0.742,0.026,0.138,0,0.094
+E,2024,2024-05-03,2024-05-05,Dataland Register-Gazette,Cerebrica,Live caller,1500,RV,None,0.191,0.429,0.245,0.051,0.085
+E,2024,2024-05-05,2024-05-06,Metaflux University,Infinitron Peninsula,IVR,1500,RV,None,0.365,0.358,0.155,0,0.123
+E,2024,2024-05-05,2024-05-06,Metaflux University,Metaflux Realm,IVR,1500,RV,None,0.289,0.289,0.269,0,0.153
+E,2024,2024-05-05,2024-05-06,Dataland Daily,National,Online,200,Adults,None,0.17,0.29,0.305,0.045,0.19
+E,2024,2024-05-04,2024-05-06,Dataland Daily,National,Online,200,Adults,None,0.14,0.355,0.295,0.045,0.165
+E,2024,2024-05-06,2024-05-07,Dataland Daily,National,Online,200,Adults,None,0.165,0.365,0.28,0.02,0.17
+E,2024,2024-05-07,2024-05-08,Dataland Register-Gazette,Cerebrica,Live caller,1500,RV,None,0.173,0.403,0.269,0.052,0.103
+E,2024,2024-05-07,2024-05-08,Conference Board of Dataland,Circuit Confederation,Live caller,3000,LV,None,0.142,0.378,0.378,0,0.103
+E,2024,2024-05-07,2024-05-08,Dataland Register-Gazette,Circuiton,Live caller,1500,RV,None,0.051,0.508,0.344,0,0.097
+E,2024,2024-05-07,2024-05-08,Dataland Daily,National,Online,200,Adults,None,0.08,0.405,0.29,0.04,0.185
+E,2024,2024-05-06,2024-05-08,Dataland Register-Gazette,Voltagea,Live caller,1500,RV,None,0.077,0.489,0.334,0,0.101
+E,2024,2024-05-08,2024-05-09,Proudly Paid For Polling,Binaryshire,Online,1000,LV,DGM,0.731,0.026,0.161,0,0.082
+E,2024,2024-05-08,2024-05-09,Dataland Register-Gazette,Circuit Confederation,Live caller,1500,RV,None,0.122,0.365,0.406,0,0.107
+E,2024,2024-05-08,2024-05-09,Proudly Paid For Polling,National,Online,1000,LV,CC,0.193,0.362,0.338,0.036,0.071
+E,2024,2024-05-08,2024-05-09,Proudly Paid For Polling,Voltagea,Online,1000,LV,CC,0.089,0.46,0.356,0,0.095
+E,2024,2024-05-07,2024-05-09,Conference Board of Dataland,Metaflux Realm,Live caller,3000,LV,None,0.274,0.291,0.317,0,0.118
+E,2024,2024-05-07,2024-05-09,Conference Board of Dataland,Synapse Territories,Live caller,3000,LV,None,0.132,0.358,0.26,0.167,0.083
+E,2024,2024-05-09,2024-05-10,Proudly Paid For Polling,Amperville,Online,1000,LV,CC,0.044,0.258,0.605,0,0.093
+E,2024,2024-05-09,2024-05-10,Proudly Paid For Polling,Cortexia,Online,1000,LV,PDAL,0.101,0.332,0.309,0.193,0.065
+E,2024,2024-05-09,2024-05-10,Dataland Daily,National,Online,200,Adults,None,0.125,0.295,0.365,0.06,0.155
+E,2024,2024-05-08,2024-05-10,Dataland Daily,National,Online,200,Adults,None,0.135,0.335,0.325,0.04,0.165
+E,2024,2024-05-09,2024-05-11,Metaflux University,Quantumridge,IVR,1500,RV,None,0.156,0.29,0.429,0,0.125
+E,2024,2024-05-09,2024-05-11,Dataland Register-Gazette,Voltagea,Live caller,1500,RV,None,0.057,0.493,0.347,0,0.103
+E,2024,2024-05-11,2024-05-12,Cobolite Coalition Calling,Electropolis,IVR,2000,RV,CC,0.24,0.428,0.23,0,0.102
+E,2024,2024-05-11,2024-05-12,Dataland Daily,National,Online,200,Adults,None,0.15,0.37,0.325,0.025,0.13
+E,2024,2024-05-10,2024-05-12,Cobolite Coalition Calling,Infoglen,IVR,2000,RV,CC,0.248,0.434,0.22,0,0.098
+E,2024,2024-05-10,2024-05-12,Dataland Daily,National,Online,200,Adults,None,0.135,0.38,0.275,0.025,0.185
+E,2024,2024-05-12,2024-05-13,Cobolite Coalition Calling,Infoglen,IVR,2000,RV,CC,0.343,0.316,0.209,0,0.132
+E,2024,2024-05-12,2024-05-13,Dataland Daily,National,Online,200,Adults,None,0.155,0.36,0.29,0.03,0.165
+E,2024,2024-05-12,2024-05-13,Proudly Paid For Polling,Neuronia,Online,1000,LV,DGM,0.028,0.392,0.094,0.413,0.073
+E,2024,2024-05-11,2024-05-13,Synapse Strategies,Cerebrica,Online,1000,LV,SSP,0.192,0.391,0.255,0.071,0.091
+E,2024,2024-05-11,2024-05-13,Progressive Polling,Circuiton,Live caller,1000,Adults,None,0.03,0.61,0.248,0,0.112
+E,2024,2024-05-13,2024-05-14,Dataland Daily,National,Online,200,Adults,None,0.15,0.305,0.295,0.045,0.205
+E,2024,2024-05-13,2024-05-14,Proudly Paid For Polling,Neuronia,Online,1000,LV,CC,0.031,0.312,0.096,0.431,0.13
+E,2024,2024-05-12,2024-05-14,Dataland Register-Gazette,Metaflux Realm,Live caller,1500,RV,None,0.247,0.328,0.33,0,0.095
+E,2024,2024-05-14,2024-05-15,Metaflux University,Metaflux Realm,IVR,1500,RV,None,0.253,0.362,0.269,0,0.116
+E,2024,2024-05-14,2024-05-15,Conference Board of Dataland,Synapse Territories,Live caller,3000,LV,None,0.121,0.406,0.234,0.161,0.078
+E,2024,2024-05-13,2024-05-15,Progressive Polling,Byteforge Domain,Live caller,1000,Adults,None,0.264,0.173,0.498,0,0.065
+E,2024,2024-05-15,2024-05-16,Dataland Daily,National,Online,200,Adults,None,0.125,0.415,0.265,0.04,0.155
+E,2024,2024-05-14,2024-05-16,Conference Board of Dataland,Circuit Confederation,Live caller,3000,LV,None,0.137,0.401,0.361,0,0.1
+E,2024,2024-05-14,2024-05-16,Conference Board of Dataland,Metaflux Realm,Live caller,3000,LV,None,0.253,0.329,0.305,0,0.114
+E,2024,2024-05-14,2024-05-16,Dataland Daily,National,Online,200,Adults,None,0.145,0.41,0.285,0.03,0.13
+E,2024,2024-05-16,2024-05-18,No Province Left Behind,Amperville,IVR,500,LV,None,0.052,0.316,0.562,0,0.07
+E,2024,2024-05-16,2024-05-18,Dataland Register-Gazette,Cortexia,Live caller,1500,RV,None,0.067,0.369,0.297,0.187,0.081
+E,2024,2024-05-16,2024-05-18,Dataland Daily,National,Online,200,Adults,None,0.125,0.38,0.3,0.04,0.155
+E,2024,2024-05-18,2024-05-19,Progressive Polling,Cortexia,Live caller,1000,Adults,None,0.091,0.376,0.274,0.166,0.093
+E,2024,2024-05-18,2024-05-19,Electropolis Elects,Electropolis,Live caller,1000,LV,None,0.243,0.425,0.261,0,0.071
+E,2024,2024-05-17,2024-05-19,Big Dataland Surveys,Circuit Confederation,Online,10000,RV,None,0.133,0.436,0.317,0,0.114
+E,2024,2024-05-17,2024-05-19,Dataland Daily,National,Online,200,Adults,None,0.155,0.355,0.285,0.025,0.18
+E,2024,2024-05-19,2024-05-20,Dataland Register-Gazette,Circuiton,Live caller,1500,LV,None,0.059,0.572,0.265,0,0.103
+E,2024,2024-05-19,2024-05-20,Proudly Paid For Polling,Electropolis,Online,1000,LV,PDAL,0.226,0.394,0.301,0,0.079
+E,2024,2024-05-19,2024-05-20,Metaflux University,Infinitron Peninsula,IVR,1500,RV,None,0.373,0.331,0.19,0,0.107
+E,2024,2024-05-18,2024-05-20,Metaflux University,Binaryshire,IVR,1500,RV,None,0.734,0.043,0.12,0,0.103
+E,2024,2024-05-18,2024-05-20,Dataland Register-Gazette,Circuit Confederation,Live caller,1500,LV,None,0.149,0.42,0.341,0,0.09
+E,2024,2024-05-18,2024-05-20,Proudly Paid For Polling,Cortexia,Online,1000,LV,DGM,0.076,0.432,0.217,0.176,0.099
+E,2024,2024-05-18,2024-05-20,Metaflux University,Infinitron Peninsula,IVR,1500,RV,None,0.369,0.28,0.247,0,0.103
+E,2024,2024-05-18,2024-05-20,Proudly Paid For Polling,Infinitron Peninsula,Online,1000,LV,PDAL,0.387,0.319,0.227,0,0.067
+E,2024,2024-05-18,2024-05-20,Dataland Daily,National,Online,200,Adults,None,0.16,0.405,0.255,0.045,0.135
+E,2024,2024-05-19,2024-05-21,No Province Left Behind,Binaryshire,IVR,500,LV,None,0.744,0.04,0.136,0,0.08
+E,2024,2024-05-19,2024-05-21,Dataland Daily,National,Online,200,Adults,None,0.12,0.45,0.24,0.02,0.17

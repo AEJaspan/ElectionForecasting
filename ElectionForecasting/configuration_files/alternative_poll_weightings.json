@@ -1,0 +1,25 @@
+{
+    "modality_factor_weights": {
+        "Online": 0.9,
+        "IVR": 0.95,
+        "Live caller": 1.0
+    },
+    "population_factor_weights": {
+        "Adults": 0.9,
+        "RV": 0.95,
+        "LV": 1.0
+    },
+    "pollster_factor_weights": {
+        "Dataland Daily": 1.0,
+        "No Province Left Behind": 1.0,
+        "Progressive Polling": 1.0,
+        "Cobolite Coalition Calling": 1.0,
+        "Big Dataland Surveys": 1.0,
+        "Synapse Strategies": 1.0,
+        "Metaflux University": 1.0,
+        "Conference Board of Dataland": 1.0,
+        "Dataland Register-Gazette": 1.0,
+        "Proudly Paid For Polling": 1.0,
+        "Electropolis Elects": 1.0
+    }
+}

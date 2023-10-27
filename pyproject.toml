@@ -1,0 +1,44 @@
+[build-system]
+requires = ["pdm-backend", "setuptools"]
+build-backend = "pdm.backend"
+
+[tool.setuptools]
+py-modules = ['ElectionForecasting/']
+
+[project]
+name = "ElectionForecasting"
+authors = [
+    {name = "Adam Jaspan", email = "adam.jaspan@googlemail.com"},
+]
+readme = "README.md"
+license = {text = "MIT license"}
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Development Status :: 2 - Pre-Alpha",
+    "Intended Audience :: Developers",
+    "Natural Language :: English",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.6",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+]
+version = "0.0.1"
+description = "Election simulations."
+keywords = ["ElectionForecasting"]
+requires-python = ">=3.6"
+dependencies = [
+    "numpy",
+    "pandas",
+    "pytest",
+    "importlib-metadata",
+    "pytensor",
+    "pymc"
+]
+
+[project.urls]
+Homepage = "https://github.com/AEJaspan/ElectionForecasting/"
+
+
+[project.scripts]
+ElectionForecasting = "ElectionForecasting.src.main:main"
