@@ -30,10 +30,6 @@ The outcomes of these steps are synthesized to simulate election results, both a
 
 [2]: Abril-Pla, O., Andreani, V., Carroll, C., Dong, L., Fonnesbeck, C.J., Kochurov, M., Kumar, R., Lao, J., Luhmann, C.C., Martin, O.A., Osthege, M., Vieira, R., Wiecki, T., & Zinkov, R. (2023). *PyMC: A Modern and Comprehensive Probabilistic Programming Framework in Python*.
 
-<details>
-  <summary> 
-    <h1><strong>Low level overview - Click to expand</strong></h1>
-  </summary>
 
 ## Low level overview
 
@@ -103,21 +99,14 @@ The outcomes of these steps are synthesized to simulate election results, both a
 
 
 
-<details>
-  <summary>Visualising these priors</summary>
-
 - **TimeSeries Overlay**:
-    ![TimeSeriesOverlay](ElectionForecasting/plots/static_plots/priors/time_series.png)
+    ![TimeSeriesOverlay](./ElectionForecasting/plots/static_plots/priors/time_series.png)
     > These plots show the overlay of the prior estimates across all point observations of these processes.
-- **TimeSeries Overlay**:
-    ![PriorHistograms](ElectionForecasting/plots/static_plots/priors/histograms.png)
-    > It is shown that the prior estimates are reasonably good choices for the GDP percent change and the Unemployment rate, where as an alternative distribution, such as a skewed-normal or bi-modal distribution may be more suitable for the inflation or stock market data. More attention is definitely needed here.
-  
-</details>
 
-
-</details>
-
+ 
+- **Data Distribution**:
+  ![PriorHistograms](./ElectionForecasting/plots/static_plots/priors/histograms.png)
+  > It is shown that the prior estimates are reasonably good choices for the GDP percent change and the Unemployment rate, where as an alternative distribution, such as a skewed-normal or bi-modal distribution may be more suitable for the inflation or stock market data. More attention is definitely needed here.
 
 ## Key Scripts and Modules
 - **Data Processing**:
