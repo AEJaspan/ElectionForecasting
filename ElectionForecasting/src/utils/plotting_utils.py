@@ -134,13 +134,12 @@ def create_plotly_traces(df, yaxis='y1', trace_name='Win Probability'):
 
     return traces
 
-def combined_scatter_and_traces(raw_poll_data, region, poll_columns, poll_dates, daily_wins=None, observed=None):
+def combined_scatter_and_traces(raw_poll_data, region, poll_columns, poll_dates, daily_wins, observed=None):
     fig = plot_single_region_plotly(raw_poll_data, poll_dates[-1], poll_dates[0], region, poll_columns)
     vote_shares = daily_wins.loc[:, daily_wins.columns.str.contains('_mean_vote_share')]
     traces = create_plotly_traces(vote_shares, yaxis='y1')
-    if type(daily_wins) == pd.DataFrame:
-        win_probs = daily_wins.loc[:, daily_wins.columns.str.contains('_win_probability')]
-        traces += create_plotly_traces(win_probs, yaxis='y2')
+    win_probs = daily_wins.loc[:, daily_wins.columns.str.contains('_win_probability')]
+    # traces += create_plotly_traces(win_probs, yaxis='y2')
     if type(observed) == pd.DataFrame:
         if observed.shape[0] == 1:
             observed = pd.concat([observed, observed])
@@ -158,7 +157,7 @@ def close_figure(figure, save_function=savefig, directory=ROOT_DIR, filename='',
             file_path = directory / f'{filename}.html'
             print(f'Saving plot to {file_path}...')
             figure.write_html(file_path)
-        elif write_image in save_function:
+        elif save_function == write_image:
             file_path = directory / f'{filename}.png'
             print(f'Saving plot to {file_path}...')
             figure.write_image(file_path)

@@ -93,7 +93,7 @@ def main(
         scenarios = scenario_list.split(',')
 
     # sampling_kwargs = {'target_accept': .95, 'draws': 5000, 'cores': 4}
-    sampling_kwargs = {'target_accept': .95}  # , 'draws': 5000, 'cores': 4}
+    sampling_kwargs = {'target_accept': .95, 'draws': 20000, 'cores': 6}
     election_results_df = pd.read_csv(
         f'{ROOT_DIR}/data/dataland/dataland_election_results_1984_2023.csv'
     )

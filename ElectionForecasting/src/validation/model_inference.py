@@ -161,7 +161,7 @@ def inference_on_historical_data(
             level='province'
         ) if region != 'National' else daily_national_results_df
         fig = combined_scatter_and_traces(raw_poll_data, region, poll_columns,
-                                          poll_dates, daily_wins=None, observed=observations.T)
+                                          poll_dates, daily_wins, observed=observations.T)
         close_figure(
             fig, save_function=write_html, directory=results_dir,
             filename=f'{region}_predictions_with_win_probs', save=save,
@@ -273,7 +273,7 @@ def inference_on_holdout_data(
             level='province'
         ) if region != 'National' else daily_national_results_df
         fig = combined_scatter_and_traces(raw_poll_data, region, poll_columns,
-                                          poll_dates, daily_wins=None) # =daily_wins
+                                          poll_dates, daily_wins) # =daily_wins
         close_figure(
             fig, save_function=write_html, directory=results_dir,
             filename=f'{region}_predictions_with_win_probs', save=save,
