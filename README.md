@@ -3,8 +3,8 @@
 ## Table of Contents
 1. [Introduction](#introduction)
 4. [Key Scripts and Modules](#key-scripts-and-modules)
-2. [High Level Overview](#highlevel-overview)
-2. [Low Level Overview](#lowlevel-overview)
+2. [High Level Overview](#high-level-overview)
+2. [Low Level Overview](#low-level-overview)
 6. [Modelling](#modelling)
 7. [Visualization](#visualization)
 3. [Directory Structure](#directory-structure)
@@ -77,7 +77,7 @@ The outcomes of these steps are synthesized to simulate election results, both a
           $g(x) = C + \frac{(D - C) \times (f(x) - A)}{B - A}$
           - Therefore, I take a linear function, bounded between 0 and 1, and rescale it as:
           
-          $\text{norm}_t = \text{switchpoint}_{min} + \text{switchpoint}_{diff} \times \left( \frac{t}{n_{\text{time points}}} \right)$
+          $$norm_{t} = \text{min}(\text{switchpoint}) + \Delta\text{switchpoint} \times \left( \frac{t}{n_{\text{time points}}} \right)$$
 
   3. Partisan lean adjustments
       - The state-specific vote shares are then calculated as the sum of the previous year's partisan leans and the current national vote share projections. During model development, I attempted to incorporate the pairwise correlations of each party's partisan leanings across all states. However, including this correlation matrix led to significant model instability and negatively impacted the results. Consequently, this element was omitted from the model.
@@ -129,7 +129,7 @@ Below are some visualisations of the models' performance against a holdout data 
       <h2><strong>Note.</strong></h2>
 </summary>
 
-#### Note - several of these plots are interactive, which is unfortunately unsuported by GitHub 🙁 - for the full plots, please check [here](ElectionForecasting/plots/static_plots/). The .html files can be rendered separately in your web browser!  
+#### Note - several of these plots are interactive, which is unfortunately unsuported by GitHub 🙁 - for the full plots, please check [here](ElectionForecasting/plots/static_plots/). The `.html` files can be rendered separately in your web browser!  
 </details>
 
 
