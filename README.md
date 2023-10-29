@@ -3,8 +3,8 @@
 ## Table of Contents
 1. [Introduction](#introduction)
 4. [Key Scripts and Modules](#key-scripts-and-modules)
-2. [High Level Overview](#highlevel-overview)
-2. [Low Level Overview](#lowlevel-overview)
+2. [High Level Overview](#high-level-overview)
+2. [Low Level Overview](#low-level-overview)
 6. [Modelling](#modelling)
 7. [Visualization](#visualization)
 3. [Directory Structure](#directory-structure)
