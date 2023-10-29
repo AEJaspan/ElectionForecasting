@@ -35,9 +35,8 @@ configure_logging()
 # Initialize variables
 # Moved to constants and more descriptive names.
 P_ORDER = np.array(party_order)
-# DATE_TODAY = datetime.today().strftime('%Y-%m-%d')
-# logging.info(f'SETTING DATE TO {DATE_TODAY}')
-    
+
+
 def inference_on_historical_data(
         y, data_loader, sample_kwargs={}, save=False, show=False
 ):
@@ -145,6 +144,7 @@ def inference_on_historical_data(
     daily_national_results_df = calculate_national_results(
         predictive_samples, poll_dates, new_order, P_ORDER
     )
+    daily_national_results_df.index.name = 'polling_date'
     daily_provincial_results_df = calculate_provincial_results(
         predictive_samples, poll_dates, new_order, party_order, P_ORDER
     )
@@ -257,6 +257,7 @@ def inference_on_holdout_data(
         predictive_samples,
         poll_dates, new_order, P_ORDER
     )
+    daily_national_results_df.index.name = 'polling_date'
     daily_provincial_results_df = calculate_provincial_results(
         predictive_samples,
         poll_dates, new_order, party_order, P_ORDER

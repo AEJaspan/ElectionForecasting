@@ -5,7 +5,7 @@ from pathlib import Path
 import plotly.graph_objects as go
 import plotly
 from ElectionForecasting.src.root import ROOT_DIR
-from ElectionForecasting.src.config import party_order as parties # as policitcal_parties
+from ElectionForecasting.src.config import party_order as parties
 from ElectionForecasting.src.config import PLOTLY_TEMPLATE
 
 def plot_election_map(df, title_addition='', observed=None):
@@ -14,7 +14,6 @@ def plot_election_map(df, title_addition='', observed=None):
         df.reset_index(inplace=True)
     default_colours = plotly.colors.DEFAULT_PLOTLY_COLORS
     unique_states = df['province'].values
-    # parties = df['winner'].unique()
     colour_map = {
         parties[0]: default_colours[0],
         parties[1]: default_colours[1],
@@ -59,7 +58,6 @@ def plot_election_map(df, title_addition='', observed=None):
                         width=8               # Marker outline width
                     )
                 ),
-                # text=' - '.join([f'{p}: {v[0]:.2f} %' for p, v in state_data[parties].to_dict('list').items()]),
                 text=trace_text,
                 textposition='middle center',
                 opacity=win_share,
@@ -111,7 +109,3 @@ def plot_election_map(df, title_addition='', observed=None):
         )
     )
     return fig
-# fig = plot_election_map(dict_results_dfs['2020'][0].copy())
-# # Show the plot
-# fig.write_html('plt.html')
-# fig.show()

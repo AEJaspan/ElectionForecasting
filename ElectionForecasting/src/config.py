@@ -3,17 +3,14 @@ import datetime
 import logging
 
 from ElectionForecasting.src.utils.general import (
-    configure_logging, create_directory
+    configure_logging
 )
 
 # Configure Logging
 configure_logging()
-DATE_TODAY = datetime.datetime.today().replace(
-    tzinfo=datetime.timezone.utc
-).strftime('%Y-%m-%d')
-
-
+DATE_TODAY = datetime.datetime.today().strftime('%Y-%m-%d')
 logging.info(f'SETTING DATE TO {DATE_TODAY}')
+
 
 class Parties(Enum):
     CC = auto()
@@ -21,22 +18,26 @@ class Parties(Enum):
     PDAL = auto()
     SSP = auto()
 
+
 class Provinces(Enum):
-    Cerebrica  = 'Cerebrica'
-    Cortexia  = 'Cortexia'
-    Neuronia  = 'Neuronia'
-    Amperville  = 'Amperville'
-    Binaryshire  = 'Binaryshire'
+    Cerebrica = 'Cerebrica'
+    Cortexia = 'Cortexia'
+    Neuronia = 'Neuronia'
+    Amperville = 'Amperville'
+    Binaryshire = 'Binaryshire'
     ByteforgeDomain = 'Byteforge Domain'
-    Circuiton  = 'Circuiton'
-    Electropolis  = 'Electropolis'
+    Circuiton = 'Circuiton'
+    Electropolis = 'Electropolis'
     InfinitronPeninsula = 'Infinitron Peninsula'
-    Infoglen  = 'Infoglen'
-    Quantumridge  = 'Quantumridge'
-    Voltage  = 'Voltagea'
+    Infoglen = 'Infoglen'
+    Quantumridge = 'Quantumridge'
+    Voltage = 'Voltagea'
+
 
 restricted_party = Parties.SSP.name.lower()
-unrestricted_provinces = [Provinces.Cerebrica.name, Provinces.Cortexia.name, Provinces.Neuronia.name]
+unrestricted_provinces = [
+    Provinces.Cerebrica.name, Provinces.Cortexia.name, Provinces.Neuronia.name
+]
 party_order = [party.name.lower() for party in Parties]
 province_order = [province.value for province in Provinces]
 unrestricted_parties = party_order

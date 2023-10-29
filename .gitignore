@@ -6,7 +6,8 @@ logs/
 plots/
 .ipynb_checkpoints/
 results/
-data/interim/
-data/processed/
+*data/interim/
+ElectionForecasting/data/*
 tests/
 .DS_Store
+notebooks/*

@@ -92,14 +92,12 @@ def main(
     if scenario_list:
         scenarios = scenario_list.split(',')
 
-    # sampling_kwargs = {'target_accept': .95, 'draws': 5000, 'cores': 4}
-    sampling_kwargs = {'target_accept': .95, 'draws': 20000, 'cores': 6}
+    sampling_kwargs = {'target_accept': .95, 'draws': 5000, 'cores': 8}
+    # sampling_kwargs = {'target_accept': .95}
     election_results_df = pd.read_csv(
         f'{ROOT_DIR}/data/dataland/dataland_election_results_1984_2023.csv'
     )
-    # poll_weighting_config_file = Path(f"{ROOT_DIR}/{poll_weighting_config_file}")
-    # print(poll_weighting_config_file)
-    # return
+
     # Order of these method calls is important
 
     if process_historical:
@@ -126,11 +124,14 @@ def main(
         logging.info("Running backtesting.")
         years = [str(y) for y in range(years_min, years_max)]
         for y in years:
+            logging.info(f"Performing inference on year {y}.")
             daily_national_results_df, daily_provincial_results_df =\
                 inference_on_historical_data(
                     y, data_loader, save=save, show=show,
                     sample_kwargs=sampling_kwargs
                 )
+            logging.info(f"Evaluating Test on year {y} with test "
+                         f"name {test_name}.")
             _ = evaluate(
                 election_results_df, daily_national_results_df,
                 daily_provincial_results_df, y, save=save,
@@ -141,6 +142,7 @@ def main(
     if run_on_holdout:
         logging.info("Running on holdout data.")
         for scenario in scenarios:
+            logging.info(f"Running inference on scenario {scenario}.")
             _, _ = inference_on_holdout_data(
                 '2024', scenario, save=save, show=show,
                 sample_kwargs=sampling_kwargs

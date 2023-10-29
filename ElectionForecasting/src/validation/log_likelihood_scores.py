@@ -51,6 +51,7 @@ def evaluate(
         plt.show()
     if save:
         results_dir = Path(f'{ROOT_DIR}/results/evaluation/{DATE_TODAY}/{test_name}/{y}/{headline}/')
+        logging.info(f'Saving experiment results to:\n{results_dir}')
         results_dir.mkdir(exist_ok=True, parents=True)
         log_likelihoods.iloc[:,0].sort_values().to_csv(results_dir/'log_likelihood_scores.csv')
         plt.savefig(results_dir / f'log_likelihoods.png')

@@ -108,5 +108,4 @@ def get_results_df_from_simulation(simulations, key='Simulation'):
         lst_results_dfs.append(results)
         results.reset_index(inplace=True)
         dict_results_dfs[f"{key}: {i}"] = [results, national_vote, election]
-    # print(f"{n_errors} SSP False wins")
     return dict_results_dfs

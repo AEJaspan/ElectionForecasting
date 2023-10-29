@@ -27,7 +27,6 @@ def get_results_df_from_simulation(simulations, province_order, key='Simulation'
     for i, simulation in enumerate(simulations):
         national_vote = ""
         election = pd.DataFrame(simulation, index=province_order, columns=party_order)
-        # election[restricted_party].loc[unrestricted_territories] = np.nan
         results = election.copy()
         election.index.name = 'province'
         for c in election.columns:
@@ -38,5 +37,4 @@ def get_results_df_from_simulation(simulations, province_order, key='Simulation'
         lst_results_dfs.append(results)
         results.reset_index(inplace=True)
         dict_results_dfs[f"{key}: {i}"] = [results, national_vote]
-    # print(f"{n_errors} SSP False wins")
     return dict_results_dfs

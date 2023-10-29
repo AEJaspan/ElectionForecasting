@@ -19,7 +19,6 @@ def get_lagged_mu_contribution(data, lag):
     """
     ...
     lag_str = f'_lag_{lag}q'
-    # print(data)
     gdp_growth = pm.MutableData('year_on_year_gdp_pct_change'+lag_str, data['year_on_year_gdp_pct_change'+lag_str])
     unemployment = pm.MutableData('unemployment_rate'+lag_str, data['unemployment_rate'+lag_str])
     inflation = pm.MutableData('year_on_year_inflation'+lag_str, data['year_on_year_inflation'+lag_str])
@@ -32,17 +31,8 @@ def get_lagged_mu_contribution(data, lag):
     party_effect = pm.Categorical('party_effect'+lag_str, p=alpha_party, observed=party_labels)
     pop_vote = pm.Categorical('pop_vote'+lag_str, p=alpha_pop_vote, observed=pop_vote_winner_labels)
 
-    # sigmas = .01
     transformed_inflation = pyt.log(pyt.sqrt(pyt.abs(inflation)))
-    # betas_gdp = pm.Normal('betas_gdp'+lag_str, mu=0.05, sigma=sigmas)
-    # mu_hyperparam  = pm.Normal('mu_hyperparam'+lag_str, mu=0., sigma=.05)
-    # sig_hyperparam  = pm.Normal('sig_hyperparam'+lag_str, mu=.1, sigma=.05)
-    # betas_inflation = pm.Normal('betas_inflation'+lag_str, mu=mu_hyperparam, sigma=sig_hyperparam)
-    # betas_stk_mkt = pm.Normal('betas_stk_mkt'+lag_str, mu=0.05, sigma=sigmas)
-    # betas_unemployment = pm.HalfNormal('betas_unemployment'+lag_str, sigma=sigmas)
     betas_gdp = pm.Normal('betas_gdp'+lag_str, mu=0.027, sigma=.02)
-    # mu_hyperparam  = pm.Normal('mu_hyperparam'+lag_str, mu=0., sigma=.02)
-    # sig_hyperparam  = pm.Normal('sig_hyperparam'+lag_str, mu=.1, sigma=.02)
     betas_inflation = pm.Normal('betas_inflation'+lag_str, mu=-1.798, sigma=.522)
     betas_stk_mkt = pm.Normal('betas_stk_mkt'+lag_str, mu=0.1, sigma=.1)
     betas_unemployment = pm.HalfNormal('betas_unemployment'+lag_str, sigma=.019)
@@ -69,17 +59,6 @@ def sigmoid_combination_of_vote_share(t, n_time_points, gam_forecasts, observed_
     a=(w_t[None,:,None] * gam_forecasts)
     b=((1 - w_t)[None,:,None] * observed_vote_share)
     return a+b
-
-# def linear_combination_of_vote_share(
-#         t, n_time_points, gam_forecasts, observed_vote_share,
-#         switchpoint_min=.25, switchpoint_max=.75
-#     ):
-#     switchpoint_diff = switchpoint_max - switchpoint_min
-#     # change the bounds of the linear function
-#     norm_t = switchpoint_min + switchpoint_diff * (t/n_time_points)
-#     a = gam_forecasts * norm_t[None,:,None]
-#     b = observed_vote_share * (1-norm_t)[None,:,None]
-#     return a+b
 
 def linear_combination_of_vote_share(
         t, n_time_points, gam_forecasts, observed_vote_share,
@@ -164,9 +143,9 @@ def time_for_change_model(
         )
         # A binary mask to distinguish between parties that do and do not contest in each province
         does_compete = model['does_compete']
-
+        national_prior_mean = does_compete.mean(axis=0)
         # Time for change section of the model
-        alpha_prior_mean = np.full((4, ), .25)
+        alpha_prior_mean = national_prior_mean
         sigma_prior_mean = np.full((4, ), .25)
         alphas = pm.Normal('alphas', mu=alpha_prior_mean,  sigma=sigma_prior_mean)
         lagged_contributions = get_lagged_mu_contribution(train_df, lag=3)
@@ -178,21 +157,21 @@ def time_for_change_model(
 
         # Combination of fundamentals based prediction with polling data
         poll_forecasts = model['gam_forecasts']
-        time_for_change_prior = observed_vote_share[-1, None, :]
+        time_for_change_prior = observed_vote_share.mean(0)[None, :]
         n_days_of_polling = model.dim_lengths['polling_date']
         n_time_points = model.dim_lengths['all_days_till_the_election']
         t = pyt.arange(1, n_time_points + 1)
         t = t[-n_days_of_polling:]
         # Define the max and min for alpha switching
         # These can be replaced by RVs for a more Bayesian approach
-        alpha_switch_max = 0.85
-        alpha_switch_min = 0.35
+        alpha_switch_max = pm.Uniform('alpha_switch_max', .7, .9)  # 0.85
+        alpha_switch_min = pm.Uniform('alpha_switch_min', .15, .45)  # 0.35
 
         # I weight the parties national vote share since the SSP's nationally
         # observed polling results should be proportionally increased in the
         # states in which they do compete. This is a flawed assumption, and 
         # warrants more attention.
-        does_compete_national = does_compete.mean(axis=0)
+        does_compete_national = 1/national_prior_mean
         poll_forecasts_state_wise = (
                 poll_forecasts[:, None, :] *
                 (does_compete_national*does_compete)[None, :]
@@ -210,33 +189,6 @@ def time_for_change_model(
             )
         )
 
-        # # using a linear function to combine these predictors. Can adapt to
-        # # more complex functions.
-        # daily_obs_vote_share = pm.Deterministic(
-        #     'daily_obs_vote_share',
-        #         linear_combination_of_vote_share(
-        #             t, n_time_points, poll_forecasts,
-        #             time_for_change_prior,
-        #             switchpoint_min=alpha_switch_min,
-        #             switchpoint_max=alpha_switch_max
-        #     )
-        # )
-
-        # # I weight the parties national vote share since the SSP's nationally
-        # # observed polling results should be proportionally increased in the
-        # # states in which they do compete. This is a flawed assumption, and 
-        # # warrants more attention.
-        # does_compete_national = does_compete.mean(axis=0)
-        # daily_obs_vote_share_state_wise = (
-        #         daily_obs_vote_share[0][:, None, :] *
-        #         (does_compete_national*does_compete)[None, :]
-        # )
-
-        # The state specific vote shares is then taken as the sum of the previous
-        # year's partisan leans and the observed national vote share projections.
-        # Incorporating the covariance martix into this calculation induced significant
-        # model instability, and adversely affected model results, so was omitted, however
-        # this is worth more attention.
         partisan_leans = model['previous_year_pleans'] 
         pm.Deterministic('state_vote_share', 
                             proportion(

@@ -123,7 +123,6 @@ def daily_provincial_win_percentages(provincial_winners, n_polling_days=73):
     # Step 3: Calculate the percentage of wins
     win_percentages = (win_counts / num_events)
 
-    # Now, win_percentages is a 3D array of shape (73, 12, 4) with the percentage of wins for each category in each group on each day
     return win_percentages
 
 

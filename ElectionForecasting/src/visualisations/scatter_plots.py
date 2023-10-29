@@ -75,11 +75,8 @@ def plot_single_region_plotly(df, start_date, end_date, region, poll_share_colum
     filtered_df = df.copy()
     filtered_df.set_index('date_conducted', inplace=True)
     filtered_df.sort_index(inplace=True)
-    # filtered_df = df.sort_values(by=['date_conducted'])
     fig = go.Figure()
 
-    # Filter the data based on the specified date range and region
-    # filtered_df = df[(df['date_conducted'] >= start_date) & (df['date_conducted'] <= end_date) & (df['geography'] == region)]
     filtered_df = filtered_df[
         (filtered_df.index >= start_date) &
         (filtered_df.index <= end_date) &
@@ -108,7 +105,6 @@ def plot_single_region_plotly(df, start_date, end_date, region, poll_share_colum
             # Add scatter plot
             fig.add_trace(
                 go.Scatter(
-                    # x=filtered_df['date_conducted'], 
                     x=filtered_df.index, 
                     y=filtered_df[col],
                     mode='markers',
@@ -126,7 +122,6 @@ def plot_single_region_plotly(df, start_date, end_date, region, poll_share_colum
             # Add trend line
             fig.add_trace(
                 go.Scatter(
-                    # x=filtered_df['date_conducted'],
                     x=filtered_df.index,
                     y=filtered_df['weighted_avg'],
                     mode='lines',

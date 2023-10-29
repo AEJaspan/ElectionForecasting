@@ -27,12 +27,10 @@ def violin_plot(observations, posterior_samples, title='', ):
     for j, party in enumerate([p.upper() for p in party_order]):
         plt.scatter(party, observations[party].item(), color='red', s=100, zorder=5, label='Observed' if j == 0 else "")
     # Add title and labels
-    plt.title(title)#'Posterior Predicted Vote Shares with Actual Data Points')
+    plt.title(title)
     plt.xlabel('Party')
     plt.ylabel('Vote Share')
     plt.legend()
-    # Show the plot
-    # plt.show()
     errors = df_melted.groupby('Party').mean().T.reset_index(drop=True) - observations.reset_index(drop=True)
     return errors
 
@@ -82,11 +80,9 @@ def plot_prob_band(predictions, observed, time_index=None):
     """
     observed = observed.loc[party_order]
     mean_values = np.mean(predictions, axis=0)  # Mean along the samples axis
-    # lower_bound = np.percentile(predictions, 2.5, axis=0)  # 2.5th percentile
-    # upper_bound = np.percentile(predictions, 97.5, axis=0)  # 97.5th percentile
-    l = 2.5 # 32.5
-    lower_bound = np.percentile(predictions, l, axis=0)  # 2.5th percentile
-    upper_bound = np.percentile(predictions, 100-l, axis=0)  # 97.5th percentile
+    l = 2.5
+    lower_bound = np.percentile(predictions, l, axis=0)
+    upper_bound = np.percentile(predictions, 100-l, axis=0)
     if type(time_index) != pd.core.indexes.datetimes.DatetimeIndex:
         time_index = np.arange(predictions.shape[1])[::-1]
     # Plotting
@@ -95,11 +91,8 @@ def plot_prob_band(predictions, observed, time_index=None):
     for i in range(4):    
         plt.fill_between(time_index, lower_bound[:, i], upper_bound[:, i], color='gray', alpha=0.5)
         plt.plot(time_index, mean_values[:, i], label=f'predicted {observed.index[i]}')
-        
-        # plt.(f'Time Series for {parameter_names[i]}')
         plt.xlabel('Time')
         plt.ylabel('Value')
-    # plt.gca().hlines(observations.values, min(time_index), max(time_index))
     for i, (l, o) in enumerate(observed.iloc[:,0].to_dict().items()):
         plt.gca().hlines(pd.Series(o), min(time_index), max(time_index), linestyle='--', colors=colors[i*10], label=f"observed {l}")
     plt.legend()
@@ -151,7 +144,10 @@ def combined_scatter_and_traces(raw_poll_data, region, poll_columns, poll_dates,
 def close_figure(figure, save_function=savefig, directory=ROOT_DIR, filename='', save=False, show=False) -> None:
     if show:
         print('Showing plot...')
-        plt.show()
+        if save_function == savefig:
+            plt.show()
+        else:
+            figure.show()
     if save:
         if save_function==write_html:
             file_path = directory / f'{filename}.html'

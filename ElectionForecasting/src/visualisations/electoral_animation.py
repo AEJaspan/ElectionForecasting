@@ -76,7 +76,6 @@ class ElectionResultsAnimation:
         return animation_frames
 
     def make_legend(self):
-        # parties = self.results_dict[list(self.results_dict.keys())[0]][0]['winner'].unique()
         legend_traces = []
         for party in parties:
             legend_traces.append(
