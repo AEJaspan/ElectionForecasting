@@ -9,6 +9,16 @@
 7. [Visualization](#visualization)
 3. [Directory Structure](#directory-structure)
 
+
+<details>
+  <summary>
+      <h2><strong>Note.</strong></h2>
+</summary>
+
+Internal file path links do not work properly on the main page of this repo. For the full experience, open the README.md document directly in GitHub.
+
+</details>
+
 ## Introduction
 This package performs a Hierarchical Bayesian analysis using PyMC to forecast state-level and national election results in a fictional country called "Dataland." Dataland comprises 12 provinces and four political parties. Notably, the SSP party only contests three of these provinces. The forecasting approach first implements a adaptation of Alan Abramowitz's 2012 "time for change" fundamentals-based model [[1]](#1), extended to a multi-party electoral system, to estimate the national vote share on election day. This is then combined with national polling data and the historical partisan tendencies of each state. This provides a full set of vote share predictions, state-specific win probabilities, and national level win probabilities for each day of the polling period, typically spanning less than three months within Dataland's one-year electoral cycle.
 
