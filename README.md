@@ -44,7 +44,7 @@ The outcomes of these steps are synthesized to simulate election results, both a
 
 1. Data Processing
     1. Calculating the partisan leans for each state:
-        - To calculate these, I take the deviation of a state's vote share from the national vote share, for each year. I then take the exponentially weighted sum of these partisan leans over all past data ($ \text{w} = \frac{\alpha^i}{\sum_{j=0}^{i} \alpha^j}$), to arrive at a current year's partisan lean matrix.
+        - To calculate these, I take the deviation of a state's vote share from the national vote share, for each year. I then take the exponentially weighted sum of these partisan leans over all past data ($\text{w} = \frac{\alpha^{i}}{\sum \alpha^{j}}$), to arrive at a current year's partisan lean matrix.
         - This approach aims to smooth out sudden changes in a state's partisan lean from year to year. This processing is performed [here](https://github.com/AEJaspan/ElectionForecasting/blob/main/ElectionForecasting/src/data/processing/process_partisan_leans.py).
     2. Incorporating polling data:
         1. Calculating polling trends:
@@ -85,7 +85,7 @@ The outcomes of these steps are synthesized to simulate election results, both a
   4. Win probabilities
       - This workflow results in an estimate for each parties vote share in each state. Each simulated election is then parsed through the Electoral College as defined [here](https://github.com/AEJaspan/ElectionForecasting/blob/main/ElectionForecasting/data/dataland/dataland_demographics.csv) to determine the winner of the presidency in each simulated election.
       - The percentage of elections in which each party wins the Electoral College is then taken as the probability of that party winning overall.
-      - Similarly, the percentage of simulations where each party wins in a specific state is taken as the probability of that party winning in that state. These probabilities can be visualized here [Simulation Results Map](#simulationresultsmap)
+      - Similarly, the percentage of simulations where each party wins in a specific state is taken as the probability of that party winning in that state. These probabilities can be visualized here [Simulation Results Map](#simulation-results-map)
 
 [3]: Silver, N. (2021, March 25). *The Death Of Polling Is Greatly Exaggerated*. FiveThirtyEight.
 
@@ -135,7 +135,7 @@ Below are some visualisations of the models' performance against a holdout data 
 
 
 - **Simulation Results Map**:
-  ![simulationresultsmap](ElectionForecasting/plots/static_plots/2023/plots/simulation_results_map.png)
+  ![Simulation-Results-Map](ElectionForecasting/plots/static_plots/2023/plots/simulation_results_map.png)
   > This plot gives a pretty intuitive overview of the models' predictions for each state. Each state shows the predicted winner (with the confidence in that prediction), against the actual winner. The probability is also shown in the opacity of the colour used. States in which the prediction is correct, are bordered in green 🎉, and states in which the model gets it wrong are bordered in red 😞. You can see here that the model correctly predicts 10/12 state election results. A interactive version of this plot can be downloaded and viewed in your web browser [here](https://github.com/AEJaspan/ElectionForecasting/blob/main/ElectionForecasting/plots/static_plots/2023/plots/simulation_results_map.html).
 
 
